@@ -9,8 +9,17 @@
 		<link rel="stylesheet" href="/static/main.css">
 	</head>
 	<body>
-		<main>
-			{{ content | safe }}
-		</main>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="/">
+					Czechitas: HTML a CSS 2
+				</a>
+				</h1>
+			</header>
+			<main>
+				{{ content | safe }}
+			</main>
+		</div>
 	</body>
 </html>
