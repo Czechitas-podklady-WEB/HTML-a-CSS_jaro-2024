@@ -2,7 +2,7 @@
 layout: base
 ---
 
-Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1).
+Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1).
 
 # Osnova
 
