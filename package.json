@@ -20,6 +20,7 @@
 	},
 	"homepage": "https://github.com/Czechitas-podklady-WEB/HTML-a-CSS-2#readme",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.12.1"
+		"@11ty/eleventy": "^0.12.1",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2"
 	}
 }
