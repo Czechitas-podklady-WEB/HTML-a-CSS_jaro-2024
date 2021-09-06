@@ -2,13 +2,11 @@
 layout: base
 ---
 
-# Úvod
+Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1).
 
-Navazující kurz na [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1).
+# Osnova
 
-## Osnova
-
-### 6. září 2021
+## 6. září 2021
 
 - [Zoom](zoom-breakout-rooms)
 - [GitHub účet](github-ucet)
