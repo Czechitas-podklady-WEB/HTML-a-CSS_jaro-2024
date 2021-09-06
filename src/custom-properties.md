@@ -42,3 +42,7 @@ a {
 	color: var(--hlavni-barva);
 }
 ```
+
+## Úkol na teď
+
+@TODO
