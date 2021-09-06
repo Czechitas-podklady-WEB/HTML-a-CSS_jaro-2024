@@ -10,5 +10,5 @@ Navazující kurz na [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1)
 
 ### 6. září 2021
 
-- [Zoom](/zoom-breakout-rooms/)
-- [GitHub účet](/github-ucet/)
+- [Zoom](zoom-breakout-rooms)
+- [GitHub účet](github-ucet)

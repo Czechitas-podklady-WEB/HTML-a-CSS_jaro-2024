@@ -12,5 +12,6 @@ module.exports = function (eleventyConfig) {
 			htmlTemplateEngine: 'njk',
 			markdownTemplateEngine: 'njk',
 		},
+		pathPrefix: '/HTML-a-CSS-2/',
 	}
 }

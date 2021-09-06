@@ -14,4 +14,4 @@ layout: base
 
   - Tvé uživatelské jméno uvidíš například po rozkliknutí avatara v pravém horním rohu pod textem „Signed in as“. V mém případě bych do tabulky přepsal „FilipChalupa“.
 
-    ![GitHub účet](/static/screenshots/github-username.png)
+    ![GitHub účet](static/screenshots/github-username.png)
