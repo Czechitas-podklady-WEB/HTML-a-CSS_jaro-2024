@@ -6,7 +6,7 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 # Osnova
 
-## 6. září 2021
+## 1. lekce: 6. září 2021
 
 - [Zoom](zoom-breakout-rooms)
 - [Custom properties](custom-properties)
