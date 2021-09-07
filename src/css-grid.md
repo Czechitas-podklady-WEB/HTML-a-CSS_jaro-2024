@@ -18,10 +18,10 @@ Skupina vlastností pro nastavení rozložení prvků. Částečně se chová ja
 
 Chceš si v kódu rychle něco vyzkoušet? Tady najdeš kód, ve kterém je předchystaných pár položek se základním stylováním. [github.com/…/Piskoviste-CSS-grid](https://github.com/Czechitas-podklady-WEB/Piskoviste-CSS-grid)
 
-## Úkol na teď
+## Dobrovolný úkol na doma
 
 Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-Holy-Grail](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-Holy-Grail).
 
-## Dobrovolný úkol
+## ~~Dobrovolný úkol~~
 
-Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-kalendar](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-kalendar).
+~~Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-kalendar](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-kalendar).~~
