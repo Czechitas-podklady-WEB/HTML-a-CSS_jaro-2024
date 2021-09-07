@@ -45,4 +45,8 @@ a {
 
 ## Úkol na teď
 
-@TODO
+Postupuj podle zadání na [github.com/…/Cviceni-Custom-properties](https://github.com/Czechitas-podklady-WEB/Cviceni-Custom-properties).
+
+Pro vypracování si budeš muset k sobě stáhnout soubory `index.html`, `moje-styly.css` a `zakladni-styly.css`. Pokud pracuješ s GitHubem prvně nebo neznáš funkci `Fork`, stáhni soubory jako `ZIP` zde: [odkaz ke stažení](https://github.com/Czechitas-podklady-WEB/Cviceni-Custom-properties/archive/refs/heads/main.zip).
+
+Pokud fork znáš, nemusíš zip stahovat a repozitář si stačí forknout.
