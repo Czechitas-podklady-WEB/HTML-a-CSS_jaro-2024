@@ -14,6 +14,10 @@ Skupina vlastností pro nastavení rozložení prvků. Částečně se chová ja
 - [Grid garden](https://cssgridgarden.com/#cs): hra na procvičení různých grid vlastností
 - [Kompaktní tahák](https://grid.malven.co/)
 
+## Pískoviště
+
+Chceš si v kódu rychle něco vyzkoušet? Tady najdeš kód, ve kterém je předchystaných pár položek se základním stylováním. [github.com/…/Piskoviste-CSS-grid](https://github.com/Czechitas-podklady-WEB/Piskoviste-CSS-grid)
+
 ## Úkol na teď
 
 Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-Holy-Grail](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-Holy-Grail).
