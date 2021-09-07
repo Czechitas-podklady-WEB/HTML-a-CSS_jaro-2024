@@ -14,7 +14,11 @@ layout: base
 
   - Každá o sobě ostatním něco řekněte. Až budeš na řadě, můžeš třeba říct, jak se jmenuješ a jaké máš dosavadní zkušenosti s HTML a CSS.
 
-  - Vyzkoušej ostatním sdílet svou obrazovku s otevřeným programem [Visual Studio Code](https://code.visualstudio.com/).
+  - Vyzkoušej ostatním sdílet svou obrazovku s otevřeným programem [Visual Studio Code](https://code.visualstudio.com/) a prohlížečem.
+
+    - Ideálně pro sdílení zvol celou plochu (`Screen`), ať je vidět víc aplikací najednou a jak se v nich případně přepínáš. Hodí se pro kouče, když budeš ukazovat kód a výslednou stránku zároveň. Při sdílení jen konkrétní aplikace přepínání trvá dlouho.
+
+      ![volba sdílení celé obrazovky v aplikaci Zoom](static/screenshots/zoom-share-screen.png)
 
   - Předej slovo další.
 
