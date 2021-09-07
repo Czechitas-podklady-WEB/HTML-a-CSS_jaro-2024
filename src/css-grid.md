@@ -13,3 +13,11 @@ Skupina vlastností pro nastavení rozložení prvků. Částečně se chová ja
 - [Ukázky rozložení](https://css-tricks.com/snippets/css/css-grid-starter-layouts/)
 - [Grid garden](https://cssgridgarden.com/#cs): hra na procvičení různých grid vlastností
 - [Kompaktní tahák](https://grid.malven.co/)
+
+## Úkol na teď
+
+Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-Holy-Grail](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-Holy-Grail).
+
+## Dobrovolný úkol
+
+Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-kalendar](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-kalendar).
