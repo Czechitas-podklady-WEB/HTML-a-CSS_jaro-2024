@@ -10,4 +10,5 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 - [Zoom](zoom-breakout-rooms)
 - [Custom properties](custom-properties)
+- [CSS grid](css-grid)
 - [GitHub účet](github-ucet)
