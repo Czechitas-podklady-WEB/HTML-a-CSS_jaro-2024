@@ -57,6 +57,13 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
   ![kontrola](static/screenshots/terminal-git-kontrola.png)
 
+## Práce na projektu
+
+- `git clone …`
+- `git add .`
+- `git commit -m "Název změn"`
+- `git push`
+
 ## GitHub pages
 
 Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.
