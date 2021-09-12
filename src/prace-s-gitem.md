@@ -61,7 +61,7 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
 ### Z nuly
 
-### Zkopírováním jiného
+### Zkopírováním jiného (fork)
 
 ## Práce na projektu
 
