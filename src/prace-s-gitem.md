@@ -57,6 +57,12 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
   ![kontrola](static/screenshots/terminal-git-kontrola.png)
 
+## Vytvoření repozitáře
+
+### Z nuly
+
+### Zkopírováním jiného
+
 ## Práce na projektu
 
 - `git clone …`
@@ -67,3 +73,10 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 ## GitHub pages
 
 Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.
+
+## Úkol na teď
+
+## Bonus
+
+- Nainstalovat a prozkoumat [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- Nainstalovat a prozkoumat [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
