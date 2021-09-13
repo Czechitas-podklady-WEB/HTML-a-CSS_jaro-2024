@@ -89,10 +89,13 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
 ## Práce na projektu
 
-- `git clone …`
-- `git add .`
-- `git commit -m "Název změn"`
-- `git push`
+Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub repozitářem. V dalších krocích následuje postup, jak postupně přidávat a zálohovat obsah.
+
+1. Přidej/uprav nějaký soubor nebo několik spolu souvisejících souborů.
+1. V příkazové řádce označ soubory, že jsou nachystané pro zálohu pomocí `git add .`
+1. Balíček změn pojmenuj přes `git commit -m "Stručný popis změn na pár slov"`.
+1. Commit nahraj na GitHub zadáním `git push`.
+1. Zkontroluj, že změny se ukazují na GitHubu a pokračuj od bodu 1.
 
 ## GitHub pages
 
@@ -100,10 +103,22 @@ Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky kter
 
 ## Úkol na teď
 
+Postupuj podle [zadání zde](git-cviceni.md).
+
 ## Bonus
 
-- Nainstalovat a prozkoumat [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- Nainstalovat a prozkoumat [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- Nainstaluj a prozkoumej [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).
+
+  - Zobraz si historii změn.
+
+  - Proklikej pár commitů.
+
+  - Koukni, jak vypadá `diff`. Rozklikni v commitu soubor. Červenou uvidíš smazané řádky a zelenou nově přidané.
+
+- Nainstaluj a prozkoumej [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
+
+  - U jednotlivých řádků by se ti nově mělo ukazovat šedým nevýrazným textem, kdo je kdy upravil.
+
 - [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
 
 ## Fork
