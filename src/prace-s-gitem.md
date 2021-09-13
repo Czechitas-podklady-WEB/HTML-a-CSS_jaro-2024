@@ -80,3 +80,4 @@ Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky kter
 
 - Nainstalovat a prozkoumat [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - Nainstalovat a prozkoumat [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
