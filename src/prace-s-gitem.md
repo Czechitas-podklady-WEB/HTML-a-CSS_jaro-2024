@@ -57,11 +57,35 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
   ![kontrola](static/screenshots/terminal-git-kontrola.png)
 
-## Vytvoření repozitáře
+## Vytvoření repozitáře z nuly
 
-### Z nuly
+Žádný počítač nevydrží věčně. Radši se připrav na nejhorší. Pro případ, že by se tvé zařízení jednou prostě neprobralo, radši všechnu práci zálohuj. Jedna z nejpopulárnějších služeb pro uchování kódu online je [GitHub](https://github.com/). Mimo jiné díky tomu, že nabízí spoustu funkcí zdarma.
 
-### Zkopírováním jiného (fork)
+- V gitu a na GitHubu je praktické rozdělovat weby zvlášť na jednotlivé repozitáře. Každá takový repozitář má svůj vlastní název, historii změn a další nastavení. Nový repozitář vytvořím ikonkou ➕ v pravém horním rohu zvolením `New repository`.
+
+  ![New repository na GitHubu](static/screenshots/github-new-repository.png)
+
+- Každý repozitář musí mít vyplněné jméno.
+
+  ![New repository name](static/screenshots/github-new-repository-name.png)
+
+- Ve zbylém nastavení je vhodné zvolit `Public`, což umožní zapnout GitHub pages, které si ukážeme později. Ostatní zaškrtávátka můžou zůstat prázdná.
+
+  ![další nastavení](static/screenshots/github-new-repository-dalsi-nastaveni.png)
+
+- Podle následujícího postupu si vytvoř složku s repozitářem u sebe na počítači, ve které budeš vytvářet html a css kód, případně přikládat obrázky a jiné typy souborů.
+
+  - Otevři ve Visual Studio Code složku, kam běžně dáváš většinu webových projektů.
+
+  - Otevři terminál a zadej do něj `git clone https://github.com/FilipChalupa/muj-prvni-web.git`. Adresu nahraď tvou vlastní.
+
+    ![kopie url](static/screenshots/github-kopirovat-url.png)
+
+    ![git clone](static/screenshots/git-clone.png)
+
+  - Otevři ve Visual Studio Code jen nově vytvořenou složku.
+
+    ![open folder](static/screenshots/vscode-open-folder.png)
 
 ## Práce na projektu
 
@@ -81,3 +105,5 @@ Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky kter
 - Nainstalovat a prozkoumat [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - Nainstalovat a prozkoumat [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
+
+## Fork
