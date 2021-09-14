@@ -10,6 +10,8 @@ layout: base
 - `grid-template-columns: 1fr 200px`
 - `grid-template-rows: auto 10rem`
 - `gap: 20px`
+- `grid-column: 1 / -1`
+- `grid-row: 4`
 
 ## Úkol na teď
 
