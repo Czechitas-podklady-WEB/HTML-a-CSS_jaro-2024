@@ -17,3 +17,4 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 - [Práce s gitem](prace-s-gitem)
 - [CSS grid 2](css-grid-2)
+- [Object fit](object-fit)
