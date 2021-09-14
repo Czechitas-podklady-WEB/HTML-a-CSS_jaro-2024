@@ -99,7 +99,7 @@ Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub r
 
 ## Úkol na teď
 
-Postupuj podle [zadání zde](git-cviceni.md).
+Postupuj podle [zadání zde](git-cviceni).
 
 ## Bonus
 
