@@ -89,7 +89,7 @@ Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdíle
 
 ## Práce na projektu
 
-Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub repozitářem. V dalších krocích následuje postup, jak postupně přidávat a zálohovat obsah.
+Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub repozitářem. V dalších krocích následuje postup, jak přidávat a zálohovat nový obsah.
 
 1. Přidej/uprav nějaký soubor nebo několik spolu souvisejících souborů.
 1. V příkazové řádce označ soubory, že jsou nachystané pro zálohu pomocí `git add .`
