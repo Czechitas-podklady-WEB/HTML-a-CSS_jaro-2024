@@ -101,22 +101,6 @@ Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub r
 
 Postupuj podle [zadání zde](git-cviceni).
 
-## Bonus
-
-- Nainstaluj a prozkoumej [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).
-
-  - Zobraz si historii změn.
-
-  - Proklikej pár commitů.
-
-  - Koukni, jak vypadá `diff`. Rozklikni v commitu soubor. Červenou uvidíš smazané řádky a zelenou nově přidané.
-
-- Nainstaluj a prozkoumej [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
-
-  - U jednotlivých řádků by se ti nově mělo ukazovat šedým nevýrazným textem, kdo je kdy upravil.
-
-- [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
-
 ## GitHub pages
 
 Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.

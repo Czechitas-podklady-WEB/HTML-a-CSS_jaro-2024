@@ -65,3 +65,19 @@ layout: base
    ![výsledek](static/screenshots/git-vysledek.png)
 
 1. Zkontroluj, že máš všechny změny nahrané na GitHubu.
+
+## Bonus
+
+- Nainstaluj a prozkoumej [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).
+
+  - Zobraz si historii změn.
+
+  - Proklikej pár commitů.
+
+  - Koukni, jak vypadá `diff`. Rozklikni v commitu soubor. Červenou uvidíš smazané řádky a zelenou nově přidané.
+
+- Nainstaluj a prozkoumej [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
+
+  - U jednotlivých řádků by se ti nově mělo ukazovat šedým nevýrazným textem, kdo je kdy upravil.
+
+- [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
