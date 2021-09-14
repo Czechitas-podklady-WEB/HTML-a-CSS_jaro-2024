@@ -122,3 +122,17 @@ Postupuj podle [zadání zde](git-cviceni.md).
 - [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
 
 ## Fork
+
+Občas se hodí navázat na práci, kterou začal někdo jiný. Tlačítkem `Fork` u cizího repozitáře vytvoříš tvou vlastní kopii, kterou můžeš dále upravovat, aniž bys zasáhla do původního kódu patřícího někomu jinému. Tuto fukci můžeš využít například pro řešení budoucích cvičení během lekcí zadaných v samostatných repozitářích.
+
+1. Tlačítkem `Fork` vytvoříš kopii.
+
+   ![tlačítko fork](static/screenshots/fork-tlacitko.png)
+
+1. V nově vzniklém repozitář zůstane poznámka s odkazem na originál.
+
+   ![odkaz na původní repozitář](static/screenshots/fork-odkaz-na-puvodni-repozitar.png)
+
+1. Pod rozkliknutým zeleným tlačítkem `Code` najdeš adresu pro klonování.
+
+   ![code](static/screenshots/github-code-url.png)
