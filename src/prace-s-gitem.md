@@ -97,10 +97,6 @@ Pomocí `git clone …` sis vytvořila složku, která je provázaná s GitHub r
 1. Commit nahraj na GitHub zadáním `git push`.
 1. Zkontroluj, že změny se ukazují na GitHubu a pokračuj od bodu 1.
 
-## GitHub pages
-
-Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.
-
 ## Úkol na teď
 
 Postupuj podle [zadání zde](git-cviceni.md).
@@ -120,6 +116,22 @@ Postupuj podle [zadání zde](git-cviceni.md).
   - U jednotlivých řádků by se ti nově mělo ukazovat šedým nevýrazným textem, kdo je kdy upravil.
 
 - [Git and GitHub - The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
+
+## GitHub pages
+
+Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.
+
+1. Nastavení najdeš pod tlačítkem `Settings`.
+
+   ![tlačítko Settings](static/screenshots/github-settings.png)
+
+1. V sekci `Pages`.
+
+   ![tlačítko Pages](static/screenshots/github-settings-pages.png)
+
+1. V `Source` zvol větev `main`/`master` a ulož. O kousek výše se zobrazí zelená bublina s veřejnou adresou, kde web z kódu v repozitáři nově běží.
+
+   ![branch](static/screenshots/github-pages-branch.png)
 
 ## Fork
 
