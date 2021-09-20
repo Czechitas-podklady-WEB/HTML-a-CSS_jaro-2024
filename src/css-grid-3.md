@@ -24,3 +24,7 @@ layout: base
 ## Úkol na teď
 
 Postupuj podle zadání na [github.com/…/Cviceni-CSS-grid-minmax](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-minmax). Výchozí kód ze zadání si k sobě zkopíruj pomocí funkce `Fork`.
+
+## Dobrovolné čtení na doma
+
+- Pojmenované oblasti mřížky pomocí vlastnosti `grid-template-areas`. [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-template-areas)
