@@ -2,7 +2,7 @@
 layout: base
 ---
 
-# CSS grid 3
+# Responzivní CSS grid
 
 ## `min()`, `max()` and `clamp()`
 
