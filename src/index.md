@@ -24,5 +24,6 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 ### 3. lekce: 21. září 2021
 
+- [Poměr stran](pomer-stran)
 - [Responzivní CSS grid](css-grid-responzivni)
 - [Zarovnání v CSS gridu](css-grid-zarovnani)
