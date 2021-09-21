@@ -19,7 +19,6 @@ layout: base
 ```css
 .video-1 {
 	box-shadow: inset 0 0 20px red;
-	width: 100%;
 	aspect-ratio: 16 / 9;
 }
 ```
@@ -35,7 +34,6 @@ layout: base
 ```css
 .video-2 {
 	box-shadow: inset 0 0 20px blue;
-	width: 100%;
 }
 .video-2::before {
 	content: '';
@@ -56,7 +54,6 @@ layout: base
 .video-3 {
 	position: relative;
 	box-shadow: inset 0 0 20px magenta;
-	width: 100%;
 }
 .video-3::before {
 	content: '';
