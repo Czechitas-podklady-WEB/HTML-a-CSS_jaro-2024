@@ -46,7 +46,7 @@ layout: base
 
 ```html
 <div class="video-3">
-	<div class="video-3__obsah">Tady bude video přehrávač.</div>
+	<div class="video-3__obsah">Tady bude přehrávač videa.</div>
 </div>
 ```
 
