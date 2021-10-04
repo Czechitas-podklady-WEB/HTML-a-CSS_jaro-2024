@@ -27,3 +27,7 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Poměr stran](pomer-stran)
 - [Responzivní CSS grid](css-grid-responzivni)
 - [Zarovnání v CSS gridu](css-grid-zarovnani)
+
+### 4. lekce: 5. října 2021
+
+- [Vyhodnocení domácího úkolu: Šachovnice](vyhodnoceni-domaciho-ukolu-sachovnice)
