@@ -20,7 +20,7 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Práce s gitem](prace-s-gitem)
 - [CSS grid 2](css-grid-2)
 - [Object fit](object-fit)
-- [Zadání domácího úkolu](domaci-ukol-2)
+- [Zadání domácího úkolu (2)](domaci-ukol-2)
 
 ### 3. lekce: 21. září 2021
 
@@ -34,3 +34,4 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Rozložení článku (specificita)](rozlozeni-clanku)
 - [Pojmenovávání tříd](BEM)
 - [Strukturování stylů](strukturovani-stylu)
+- [Zadání domácího úkolu (3)](domaci-ukol-3)
