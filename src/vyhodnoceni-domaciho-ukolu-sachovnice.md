@@ -6,6 +6,20 @@ layout: base
 
 Podmínkou pro udělení certifikátu na konci kurzu je odevzdání všech povinných domácích úkolů.
 
+## Hlavní cíle při volbě řešení
+
+- Čitelný kód.
+
+  - V kódu je jednoduché se vyznat a dál ho rozvíjet.
+
+- Kvalita zobrazení.
+
+  - Web odpovídá zadání a vypadá dobře na různých typech zařízení.
+
+- Ušetření množství přenesených dat.
+
+  - Uživatel nečeká dlouho na načtení stránky.
+
 ## Poměr stran
 
 - `aspect-ratio`
@@ -17,14 +31,6 @@ Podmínkou pro udělení certifikátu na konci kurzu je odevzdání všech povin
   - Univerzální, ale hůře čitelné.
 
 ## Pozadí
-
-### Hlavní cíle
-
-- Ušetření množství přenesených dat.
-
-- Čitelný kód.
-
-- Kvalita zobrazení.
 
 ### Možné přístupy
 
