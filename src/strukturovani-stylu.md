@@ -93,7 +93,7 @@ Nebo přes `@import` v CSS.
 </head>
 ```
 
-Prohlížeč stáhne `index.html`. V něm se dozví, že potřebuje `vse.css`. Teprve stažení `vse.css` bude vědět, že potřebuje další soubory. Na takovém postupném vodopádu se trochu zdrží.
+Prohlížeč stáhne `index.html`. V něm se dozví, že potřebuje `vse.css`. Teprve po stažení `vse.css` bude vědět, že potřebuje další soubory. Na takovém postupném vodopádu se trochu zdrží.
 
 ## Úkol na teď
 
