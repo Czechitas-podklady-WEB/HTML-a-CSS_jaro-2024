@@ -85,4 +85,4 @@ Prohlížeč stáhne `index.html`. V něm se dozví, že potřebuje `vse.css`. T
 
 ## Úkol na teď
 
-Postupuj podle zadání na [github.com/…/Cviceni-BEM-a-strukturovani](https://github.com/Czechitas-podklady-WEB/Cviceni-BEM-a-strukturovani). Další lekci budeme mít až za dva týdny. Cvičení můžeš dobrovolně dopracovat doma.
+Postupuj podle zadání na [github.com/…/Cviceni-BEM-a-strukturovani](https://github.com/Czechitas-podklady-WEB/Cviceni-BEM-a-strukturovani).
