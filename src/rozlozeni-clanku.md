@@ -25,7 +25,7 @@ Celé zadání: [github.com/…/Cviceni-CSS-grid-blog](https://github.com/Czechi
 
 Některé CSS selektory jsou pro prohlížeč důležitější než jiné. Nehledí pak na jejich pořadí, ale důležitost.
 
-Jakou marvu textu a pozadí bude `div` mít?
+Jakou barvu textu a pozadí bude `div` mít?
 
 ```html
 <div class="muj-text">Lorem ipsum</div>
