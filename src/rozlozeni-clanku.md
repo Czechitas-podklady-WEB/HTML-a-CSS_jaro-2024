@@ -48,6 +48,16 @@ Pozadí bude žluté. Vítězí poslední nastavená barva.
 
 Text bude červený, protože selektor s třídou má větší specificitu než s názvem prvku.
 
+## Když už to jinak nejde `!important`
+
+```css
+div {
+	color: red !important;
+}
+```
+
+Zvyšuje důležitost aplikovaného stylu nad pravidla specificity. Běžně se stylování pomocí `!important` vyhýbáme, protože kód značně zesložiťuje. Díky tomu si zasloužilo i místo v [CSS pekle 🔥](https://csshell.dev/posts/overspecified-specificity/).
+
 ## Podklady
 
 - [Ukázka kalkulačky ve VS Code](https://umaar.com/dev-tips/226-vs-code-selector-specificity/)
