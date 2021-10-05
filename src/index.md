@@ -33,3 +33,4 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Vyhodnocení domácího úkolu: Šachovnice](vyhodnoceni-domaciho-ukolu-sachovnice)
 - [Rozložení článku (specificita)](rozlozeni-clanku)
 - [Pojmenovávání tříd](BEM)
+- [Strukturování stylů](strukturovani-stylu)
