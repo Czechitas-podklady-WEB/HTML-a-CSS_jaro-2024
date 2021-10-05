@@ -37,6 +37,11 @@ a {
 	color: var(--pink);
 }
 
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
 p > code,
 li > code,
 dd > code,
