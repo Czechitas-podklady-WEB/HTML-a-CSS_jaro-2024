@@ -73,7 +73,7 @@ To celé pak spojíme dohromady pomocí HTML `<link>` tagu.
 
 Prohlížeč může začít stahovat všechny styly po načtení `index.html` hned, ale linky na jednotlivé komponenty musíme zopakovat několikrát s každou další podstránkou.
 
-### Propojení přes CSS
+### Nebo propojení přes CSS
 
 Nebo přes `@import` v CSS.
 
