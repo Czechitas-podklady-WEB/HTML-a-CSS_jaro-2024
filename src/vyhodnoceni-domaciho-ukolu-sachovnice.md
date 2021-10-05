@@ -2,7 +2,7 @@
 layout: base
 ---
 
-# Vyhodnocení domácího úkolu: Šachovnice
+# Vyhodnocení domácího úkolu: Šachy
 
 Podmínkou pro udělení certifikátu na konci kurzu je odevzdání všech povinných domácích úkolů.
 
