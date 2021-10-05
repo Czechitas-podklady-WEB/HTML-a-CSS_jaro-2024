@@ -68,9 +68,9 @@ Nebo přes `@import` v CSS.
 #### vse.css
 
 ```css
-@import url('spolecne.css');
-@import url('hlavicka.css');
-@import url('tlacitko.css');
+@import 'spolecne.css';
+@import 'hlavicka.css';
+@import 'tlacitko.css';
 ```
 
 #### index.html
