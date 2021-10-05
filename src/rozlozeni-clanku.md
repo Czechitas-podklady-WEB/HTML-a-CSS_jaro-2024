@@ -51,7 +51,5 @@ Text bude červený, protože selektor s třídou má větší specificitu než 
 ## Podklady
 
 - [Ukázka kalkulačky ve VS Code](https://umaar.com/dev-tips/226-vs-code-selector-specificity/)
-
 - [Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/css-kaskada#specificita)
-
 - [CSS Tricks](https://css-tricks.com/specifics-on-css-specificity/)
