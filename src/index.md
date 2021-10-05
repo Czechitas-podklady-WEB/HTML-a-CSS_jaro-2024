@@ -30,7 +30,7 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 ### 4. lekce: 5. října 2021
 
-- [Vyhodnocení domácího úkolu: Šachovnice](vyhodnoceni-domaciho-ukolu-sachovnice)
+- [Vyhodnocení domácího úkolu: Šachy](vyhodnoceni-domaciho-ukolu-sachy)
 - [Rozložení článku (specificita)](rozlozeni-clanku)
 - [Pojmenovávání tříd](BEM)
 - [Strukturování stylů](strukturovani-stylu)
