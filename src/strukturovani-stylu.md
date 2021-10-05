@@ -11,6 +11,17 @@ Větší projekty mohou mít stovky i tisíce řádků CSS. Pro větší přehle
 #### spolecne.css
 
 ```css
+:root {
+	--brand-color: #e6007e;
+}
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
 body {
 	font-family: Helvetica, sans-serif;
 	background-color: #000000;
@@ -28,6 +39,7 @@ body {
 .hlavicka__logo {
 	margin: 0 auto;
 	width: 200px;
+	color: var(--brand-color);
 }
 .hlavicka__navigace {
 	text-align: center;
