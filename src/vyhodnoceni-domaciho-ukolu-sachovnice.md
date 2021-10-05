@@ -55,3 +55,5 @@ Podmínkou pro udělení certifikátu na konci kurzu je odevzdání všech povin
   - Větší flexibilita. Mřížku lze částečně přebarvovat.
 
   - Špatná čitelnost kódu.
+
+- Další?
