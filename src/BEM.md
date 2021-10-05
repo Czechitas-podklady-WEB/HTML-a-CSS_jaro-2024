@@ -58,3 +58,7 @@ Projděte společně některé weby a ukažte si, co jste objevili.
 ### Bonus
 
 Najdi další weby, které používají BEM.
+
+## Alternativy
+
+- OOCSS, ACSS, SMACSS, …
