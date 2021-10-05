@@ -1,4 +1,14 @@
 .layout {
+	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 1em;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.layout__footer {
+	color: #a3a3a3;
+	text-align: center;
+	margin-top: 4em;
 }
