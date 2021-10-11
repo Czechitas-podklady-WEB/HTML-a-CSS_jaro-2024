@@ -37,3 +37,5 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Zadání domácího úkolu (3)](domaci-ukol-3)
 
 ### 5. lekce: 11. října 2021
+
+- [Komunitní balíčky (npmjs)](npmjs)
