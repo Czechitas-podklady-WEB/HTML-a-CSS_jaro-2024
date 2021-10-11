@@ -39,3 +39,4 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 ### 5. lekce: 11. října 2021
 
 - [Komunitní balíčky (npmjs)](npmjs)
+- [Příkaz npm](npm)
