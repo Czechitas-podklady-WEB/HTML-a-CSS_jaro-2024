@@ -40,3 +40,4 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 
 - [Komunitní balíčky (npmjs)](npmjs)
 - [Příkaz npm](npm)
+- [Úvod do SASSu](uvod-do-sassu)
