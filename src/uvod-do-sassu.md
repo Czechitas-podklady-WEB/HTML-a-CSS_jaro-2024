@@ -39,7 +39,7 @@ Všimni si, že jsme ušetřili jeden výskyt slova `tlacitko`, a zároveň se v
 
 ## Převod na CSS
 
-Protože prohlížeče SASSu nerozumí, je potřeba náš kód `sestavit`, převést. K tomu nám pomůže balíček [sass](https://www.npmjs.com/package/sass), který do projektu doinstalujeme spuštěním příkazu `npm install sass`.
+Protože prohlížeče SASSu nerozumí, je potřeba náš kód `sestavit`, převést. K tomu nám pomůže balíček [sass](https://www.npmjs.com/package/sass), který do projektu doinstalujeme spuštěním příkazu `npm install sass`. (Pro rychlé experimenty se také může hodit online nástroj [sassmeister.com](https://www.sassmeister.com/).)
 
 Protože příkaz budeme pouštět často, bude se nám hodit v `package.json` zkratka:
 
