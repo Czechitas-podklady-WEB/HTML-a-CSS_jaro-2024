@@ -43,6 +43,6 @@ K `package.json` je vyhodné dovytvořit ještě soubor `.gitignore` a v něm zm
 
 ## Instalace balíčků
 
-Když teď máme `npm`, můžeme projekt rozšířit o závislosti zavoláním `npm install nazev-balicku`. Balíček se stáhne do `/node_modules` a zároveň o něm přibyde zmínka v `package.json`. V případě `npm install fslightbox` ho už tedy nemusíme ručně stahovat v ZIPu ze stránky s [dokumentací](https://fslightbox.com/javascript/download).
+Když teď máme `npm`, můžeme projekt rozšířit o závislosti zavoláním `npm install nazev-balicku`. Balíček se stáhne do `/node_modules` a zároveň o něm přibyde zmínka v `package.json`. V případě `npm install fslightbox` ho už tedy nemusíme ručně stahovat v ZIPu ze stránky s [dokumentací](https://fslightbox.com/javascript/download).
 
 Pokud pokračujeme na projektu, kde je `package.json` již vytvořený i se všemi závislostmi, stačí nám je jen doinstalovat samotným zavoláním `npm install`. Názvy jednotlivých balíčků se automaticky vyčtou z `package.json`. Toto je častý případ v situaci, kdy třeba klonujeme rozpracovaný projekt.
