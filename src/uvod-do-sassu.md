@@ -49,7 +49,7 @@ Protože příkaz budeme pouštět často, bude se nám hodit v `package.json` z
 	},
 ```
 
-Zkratku pustím přes `npm run build`. Odstartuje se převod, který vezme soubor `styly.scss` a výsledek uloží do `styly.css`. V HTML se pak odkazuje na výsledný soubor přes `<link rel="stylesheet" href="styly.css">`.
+Zkratku pustím přes `npm run build`. Odstartuje se převod, který vezme soubor `styly.scss` a výsledek uloží do `styly.css`. V HTML se pak odkazujeme na výsledný soubor přes klasické `<link rel="stylesheet" href="styly.css">`.
 
 ## Přípony `.scss` a `.sass`
 
