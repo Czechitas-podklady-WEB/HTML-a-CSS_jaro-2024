@@ -24,7 +24,7 @@ Představme si, že máme na webu hlavičku, která zabírá hodně místa, a ta
 
 ## Galerie s obrázky přes celou stránku
 
-Pokud bychom uživatelů chtěli umožnit rozklikávat menší fotky do větších detailů, můžeme použít třeba [fslightbox](https://www.npmjs.com/package/fslightbox).
+Pokud bychom uživatelům chtěli umožnit rozklikávat menší fotky do větších detailů, můžeme použít třeba [fslightbox](https://www.npmjs.com/package/fslightbox).
 
 ## Úkol na teď
 
