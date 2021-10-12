@@ -16,7 +16,7 @@ a počet hvězdiček na GitHubu.
 
 ![github hvězdičky](static/screenshots/sass-github-hvezdy.png)
 
-Všechny tři údaje nám napoví, jak kvalitní balíček je. V druhé řadě je také důležité `README.md`, aby bylo jasné, jak balíček použít. Velmi užitečné je také demo, ze kterého lze kolikrát nejlépe vykoukat, jak se vše má chovat dohromady a případně po nahlédnutí do zdrojového kódu si můžeme i dovyjasnit způsob nasazení.
+Všechny tři údaje nám napoví, jak kvalitní balíček je. V druhé řadě je také důležité `README.md`, aby bylo jasné, jak balíček použít. Hodí se také demo, ze kterého lze kolikrát nejlépe vykoukat, jak se vše má chovat dohromady a případně po nahlédnutí do zdrojového kódu si můžeme i dovyjasnit způsob nasazení.
 
 ## Skrývající se hlavička
 
