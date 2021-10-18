@@ -10,7 +10,7 @@ Velikost obrázkových souborů se snažíme držet co nejmenší, aby k návšt
 
 ### JPG
 
-Vhodný na fotografie, kdy není kladen důraz na přesnost každého pixelu, protože používá ztrátovou kompresi. (Často s nastavení „[progresivního renderování](https://www.google.com/search?q=progressive+jpeg&tbm=isch)“, kdy se obrázek na pomalém připojení postupně zaostřuje místo načítání po řádcích od shora dolů.)
+Vhodný na fotografie, kdy není kladen důraz na přesnost každého pixelu, protože používá ztrátovou kompresi. (Často s nastavením „[progresivního renderování](https://www.google.com/search?q=progressive+jpeg&tbm=isch)“, kdy se obrázek na pomalém připojení postupně zaostřuje místo načítání po řádcích od shora dolů.)
 
 ### PNG
 
@@ -32,7 +32,7 @@ Kombinuje výhody JPG a PNG, ale prohlížeče ho začali podporovat teprve [ned
 
 ### ICO
 
-Používaný pouze pro ikonku záložky (`favicon.ico`). Postupně nahrazovaný modernějším formáty.
+Používaný pouze pro ikonku záložky (`favicon.ico`). Postupně nahrazovaný modernějšími formáty.
 
 ## Volitelné čtení na doma
 
