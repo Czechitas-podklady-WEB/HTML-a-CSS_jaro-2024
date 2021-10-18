@@ -43,3 +43,8 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Úvod do SASSu](uvod-do-sassu)
 
 ### 6. lekce 19. října 2021
+
+- [Sémantické značkování](semanticke-znackovani)
+- [Pojmenovávání](pojmenovavani)
+- [CSS jednotky](css-jednotky)
+- [Obrázkové formáty](obrazkove-formaty)
