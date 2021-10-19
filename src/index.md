@@ -47,6 +47,6 @@ Podklady pro podzimní online kurz navazující kurz na [HTML a CSS 1](https://
 - [Otázky a odpovědi](otazky-a-odpovedi-6-lekce)
 - [Sémantické značkování](semanticke-znackovani)
 - [Pojmenovávání](pojmenovavani)
-- [CSS jednotky](css-jednotky)
+<!-- - [CSS jednotky](css-jednotky) -->
 - [Obrázkové formáty](obrazkove-formaty)
 - [Npm a SASS](npm-a-sass)
