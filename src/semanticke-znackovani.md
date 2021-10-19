@@ -10,14 +10,14 @@ Dobře označkovaný obsah pomáhá vyhledávacím robotům správně rozpoznat 
 
 ## Úkol na teď
 
-- Rozdělte se na skupinky do breakout roomů.
+- Přepojte se do svého breakout roomu.
 
-- Společně dejte dohromady seznam aspoň patnácti HTML značek. Můžete jich mít i víc. Jsou jich desítky.
+- Společně ve skupince dejte dohromady seznam aspoň patnácti HTML značek. Můžete i víc. Jsou jich desítky.
 
-  - Kouč vám v Zoomu nasdílí whiteboard, do kterého můžete psát.
+  - Kouč vám v Zoomu nasdílí whiteboard, do kterého je můžete psát.
 
-- Až je budete mít sepsané, postupně se prostřídejte a ke každé značte řekněte, kde by se mohla hodit.
+- Až budete mít značky sepsané, postupně se prostřídejte a ke každé řekněte, kde by se mohla hodit.
 
-  - Například značka `<h1>` se na stránce typicky používá jen jednou a obaluje název webu nebo hlavního obsahu.
+  - Například značka `<h1>` se na stránce typicky používá jen jednou. Typicky obaluje název webu nebo nadpis hlavního obsahu.
 
 <!-- Výpis značek například zde https://www.tutorialstonight.com/html-tags-list-with-examples.php -->
