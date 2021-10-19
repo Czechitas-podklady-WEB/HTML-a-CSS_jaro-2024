@@ -33,7 +33,7 @@ Do `scripts` v `package.json` přidáme `dev` (development) zkratku s přepína�
 
 ## Spojování
 
-`@import`
+Podobně jako v CSS i SASS umí spojovat více stylových souborů dohromady pomocí zápisu `@import`. Výhodou je, že výsledné sestavené styly jsou jen v souboru jednom a prohlížeč se tak nemusí dotazovat na každý dílek zvlášť a ztrácet tím čas. Importem je možné i zapojit experní knihovny jako je například [Bootstrap](https://www.npmjs.com/package/bootstrap).
 
 ## Úkol na teď
 
