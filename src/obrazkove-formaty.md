@@ -30,7 +30,7 @@ Vektorový formát vodný zejména pro ikonky, logo, obrázky složené z geomet
 
 ### GIF
 
-Krátké animace s nízkým počtem barev. Vhodné pro krátké smyčky.
+Krátké animace s nízkým počtem barev. Vhodné pro krátké smyčky. Pro větší, delší záznamy používající více barev volíme spíše video formáty jako MP4.
 
 ![ukázka GIF](static/examples/kocka.gif)
 
