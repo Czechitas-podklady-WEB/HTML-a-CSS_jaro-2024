@@ -12,27 +12,39 @@ Velikost obrázkových souborů se snažíme držet co nejmenší, aby k návšt
 
 Vhodný na fotografie, kdy není kladen důraz na přesnost každého pixelu, protože používá ztrátovou kompresi. (Často s nastavením „[progresivního renderování](https://www.google.com/search?q=progressive+jpeg&tbm=isch)“, kdy se obrázek na pomalém připojení postupně zaostřuje místo načítání po řádcích od shora dolů.)
 
+![ukázka JPG](static/examples/stream.jpg)
+
 ### PNG
 
-Občas za cenu větší velikosti nabízí na pixel přesné zaznamenání obrzu. Vhodné pro snímky obrazovky.
+Občas za cenu větší velikosti nabízí na pixel přesné zaznamenání obrazu. Vhodné pro snímky obrazovky. Podporuje průhlednost.
+
+![ukázka PNG](static/examples/czechitas.png)
 
 ### SVG
 
 Vektorový formát vodný zejména pro ikonky, logo, obrázky složené z geometrických tvarů. Lze v prohlížeči zvětšovat bez ztráty kvality. Obsah souboru je v čitelné podobě připomínající HTML.
 
+<img src="static/examples/house.svg" width="200" height="200" alt="ukázka SVG">
+
 ## Další používané
 
 ### GIF
 
-Krátké animace s nízkým počtem barev.
+Krátké animace s nízkým počtem barev. Vhodné pro krátké smyčky.
+
+![ukázka GIF](static/examples/kocka.gif)
 
 ### WEBP
 
 Kombinuje výhody JPG a PNG, ale prohlížeče ho začali podporovat teprve [nedávno](https://caniuse.com/webp).
 
+![ukázka WEBP](static/examples/stream.webp)
+
 ### ICO
 
 Používaný pouze pro ikonku záložky (`favicon.ico`). Postupně nahrazovaný modernějšími formáty.
+
+<img src="static/examples/favicon.ico" width="48" height="48" alt="ukázka SVG" style="border: 1px solid #303182; border-radius: 50%;">
 
 ## Volitelné čtení na doma
 
