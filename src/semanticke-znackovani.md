@@ -6,7 +6,7 @@ layout: base
 
 Při tvorbě obsahové části webu je důležité volit správné HTML značky. Není na místě vše obalovat jen do `<div>`. Ten volíme jen v případě, že nám HTML nenabízí žádnou vhodnější značku.
 
-Správně označkovaný obsah pomáhá vyhledávacím robotům správně rozpoznat obsah a nabízet podle toho relevantní výsledky. Různé pomocné nástroje, rozšíření do prohlížečů, čtečky pro slabozraké, díky tomu lépe s obsahem pracují. V neposlední řadě volba správných prvků pomáhá i nám, vývojářům, se v kódu vyznat.
+Dobře označkovaný obsah pomáhá vyhledávacím robotům správně rozpoznat obsah a nabízet podle toho relevantní výsledky. Různé pomocné nástroje, rozšíření do prohlížečů, čtečky pro slabozraké, díky tomu lépe s obsahem pracují. V neposlední řadě volba správných prvků pomáhá i nám, vývojářům, se v kódu vyznat.
 
 ## Úkol na teď
 
