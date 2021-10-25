@@ -52,4 +52,6 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 ### 7. lekce 26. října 2021
 
 - [Obrázkové formáty](obrazkove-formaty)
+- [Síť](sit)
+- [Lighthouse](lighthouse)
 <!-- - [CSS jednotky](css-jednotky) -->
