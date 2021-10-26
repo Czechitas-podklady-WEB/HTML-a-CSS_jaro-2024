@@ -30,4 +30,4 @@ Dále si můžeme všimnout, že některé CSS soubory se načítají skoro až 
 
 ## Úkol na teď
 
-Postupuj podle zadání na [github.com/…/Cviceni-Rychlost-nacitani](https://github.com/Czechitas-podklady-WEB/Cviceni-Rychlost-nacitani).
+Postupuj podle zadání na [github.com/…/Cviceni-Rychlost-nacitani](https://github.com/Czechitas-podklady-WEB/Cviceni-Rychlost-nacitani). Návrhy na zrychlení proberte společně ve skupině.
