@@ -55,4 +55,11 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [Síť](sit)
 - [Lighthouse](lighthouse)
 - [Úvod do Eleventy](uvod-do-eleventy)
-<!-- - [CSS jednotky](css-jednotky) -->
+
+### 8. lekce 2. listopadu 2021
+
+- [CSS jednotky](css-jednotky)
+- [Data v Eleventy](data-v-eleventy)
+
+<!-- - [Netlify deploy](netlify-deploy) -->
+<!-- - [Netlify CMS](netlify-cms) -->
