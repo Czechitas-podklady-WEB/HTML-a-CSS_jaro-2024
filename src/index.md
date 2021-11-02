@@ -61,5 +61,6 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [CSS jednotky](css-jednotky)
 - [Data v Eleventy](data-v-eleventy)
 - [Netlify deploy](netlify-deploy)
+- [Zadání domácího úkolu (4)](domaci-ukol-4)
 
 <!-- - [Netlify CMS](netlify-cms) -->
