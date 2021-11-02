@@ -45,3 +45,15 @@ Netlify automaticky pro každý projekt vybírá náhodnou adresu končící na 
 ![Netlify edit site name](static/screenshots/netlify-edit-site-name.png)
 
 Pro provázání s vlastní koupenou doménou pak slouží tlačítko `Add custom domain`.
+
+## Úkol na teď
+
+- Vyber si z existujících nebo nahraj nový Eleventy repozitář na tvůj GitHub účet.
+
+- Propoj ho s Netlify.
+
+- Odkaz na veřejnou stránku `*.netlify.app` přidej do popisku repozitáře na GitHubu.
+
+- Něco v repozitáři uprav, commitni a pushni. Můžeš změnit třeba nějaký nadpis. Koukni do administrace Netlify a sleduj, jestli se automaticky spustil nový deployment.
+
+- Až doběhne, zkontroluj, že se data na webu změnila.
