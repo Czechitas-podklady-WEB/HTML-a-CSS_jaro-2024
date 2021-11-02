@@ -8,7 +8,7 @@ layout: base
 
 V ukázce níže ukládáme do proměnné `nadpis` hodnotu `Kontakt` a do `adresa` `Václavské náměstí 11`. Tyto proměnné jsou dostupné jen na dané stránce.
 
-```plain
+```liquid
 {% raw %}---
 layout: zakladni
 nadpis: Kontakt
@@ -20,7 +20,7 @@ adresa: Václavské náměstí 11
 
 Hodnoty proměnných vypisujeme pomocí `{% raw %}{{ nazev_promenne }}{% endraw %}`.
 
-```html
+```liquid
 <h1>{% raw %}{{ nadpis }}{% endraw %}</h1>
 <address>{% raw %}{{ adresa }}{% endraw %}</address>
 ```
@@ -60,7 +60,7 @@ Všechna data v souboru `pobocky.json` jsou k dispozici za tečkou `{% raw %}{{ 
 
 V JSON ukázce výše máme kolekci. Pro výpis všech položek za sebou použijeme smyčku `for`.
 
-```plain
+```liquid
 {% raw %}<h1>Pobočky</h1>
 {% for pobocka in pobocky %}
 	<section>
@@ -74,7 +74,7 @@ V JSON ukázce výše máme kolekci. Pro výpis všech položek za sebou použij
 
 Kolekci můžeme využit pro vytvoření několika stránek podle jedné šablony. Vytvoříme novou stránku, třeba `pobocka.njk`, které do Front Matter dáme následující:
 
-```plain
+```liquid
 {% raw %}---
 layout: zakladni
 pagination:
@@ -92,9 +92,8 @@ Eleventy pro každou pobočky vytvoří vlastní HTML soubor.
 
 Pokud bychom na jednotlivé stránky chtěli odkazovat, použijeme formát ze sekce `permalink`.
 
-```html
-{% raw %}<a href="/pobocka/{{ pobocka.nazev | slug }}/">{{ pobocka.nazev }}</a
->{% endraw %}
+```liquid
+{% raw %}<a href="/pobocka/{{ pobocka.nazev | slug }}/">{{ pobocka.nazev }}</a>{% endraw %}
 ```
 
 ## Úkol na teď
