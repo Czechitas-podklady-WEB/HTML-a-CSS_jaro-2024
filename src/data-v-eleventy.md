@@ -88,7 +88,7 @@ permalink: '/pobocka/{{ pobocka.nazev | slug }}/'
 <address>{{ pobocka.adresa }}</address>{% endraw %}
 ```
 
-Eleventy pro každou pobočky vytvoří vlastní HTML soubor.
+Eleventy pro každou pobočku vytvoří vlastní HTML soubor.
 
 Pokud bychom na jednotlivé stránky chtěli odkazovat, použijeme formát ze sekce `permalink`.
 
