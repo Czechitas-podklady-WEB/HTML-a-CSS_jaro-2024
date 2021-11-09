@@ -63,7 +63,7 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [Netlify deploy](netlify-deploy)
 <!-- - [Zadání domácího úkolu (4)](domaci-ukol-4) -->
 
-<!-- ### 9. lekce 9. listopadu 2021 -->
+### 9. lekce 9. listopadu 2021
 
-<!-- - [CSS jednotky](css-jednotky) -->
+- [CSS jednotky](css-jednotky)
 <!-- - [Netlify CMS](netlify-cms) -->
