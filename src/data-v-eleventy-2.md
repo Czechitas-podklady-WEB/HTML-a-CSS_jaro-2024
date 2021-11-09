@@ -22,7 +22,7 @@ Výsledek v HTML bude vypadat takto:
 
 ## Slug
 
-Pro převod textu na znaky vhodné pro URL adresu používáme filtr `| slug`.
+Pro převod textu na znaky vhodné pro URL adresu používáme filtr `slug`.
 
 ```liquid
 <div>Název: {% raw %}{{ filmy.nazev }}{% endraw %}</div>
@@ -58,7 +58,7 @@ Pokud máme v kolekci samé řetězce, můžeme je spojit dohromady pomocí filt
 <div>Sci-FiKomedieRomantický</div>
 ```
 
-Pokud chceme použít vlastní oddělovač, například čárku navíc s mezerou, přidáme za slice parametr.
+Pokud chceme použít vlastní oddělovač, například čárku navíc s mezerou, přidáme za `join` parametr do kulatých závorek v uvozovkách.
 
 ### `sablona.njk`
 
@@ -83,19 +83,20 @@ Všechny zabudované filtry do nunjucks jsou popsané v dokumentaci [zde](https:
 Pokud chceme na stránce vypsat kus HTML jen v případě, že platí nějaká podmínka, použijeme `{% raw %}{% if %}{% endraw %}`.
 
 ```liquid
-{% raw %}{% if rokNatoceni == 2021 %}{% endraw %}
+{% raw %}{% if film.rokNatoceni == 2021 %}{% endraw %}
 	<div>Film byl natočen letos</div>
 {% raw %}{% endif %}{% endraw %}
 ```
 
-Pokud chceme vypsat něco jiného v případ, že podmínka neplatí, doplníme zápis o větev `{% raw %}{% else %}{% endraw %}`. Podmínku můžeme kombinovat i s filtry.
+Pokud chceme vypsat něco jiného v případě, že podmínka neplatí, doplníme zápis o větev `{% raw %}{% else %}{% endraw %}`. Podmínku můžeme kombinovat i s filtry.
 
 ```liquid
 {% raw %}{% if filmy | length > 0 %}{% endraw %}
+	<h2>Výpis filmů</h2>
 	<ul>
 		{% raw %}{% for film in filmy %}{% endraw %}
 			<li>
-				{% raw %}{{ film }}{% endraw %}
+				{% raw %}{{ film.nazev }}{% endraw %}
 			</li>
 		{% raw %}{% endfor %}{% endraw %}
 	</ul>
@@ -112,15 +113,27 @@ Pomocí `{% raw %}{% set %}{% endraw %}` můžeme vytvářet nové proměnné, k
 {% raw %}{% set nejoblibenejsiCislo = 12 %}{% endraw %}
 <div>Nejoblíbenější číslo je: {% raw %}{{ nejoblibenejsiCislo }}{% endraw %}</div>
 
-{% raw %}{% set nejoblibenejsiFilmy = filmy %}{% endraw %}
-<h2>Nejoblíbenější filmy</h2>
+{% raw %}{% set filmy = noveFilmy %}{% endraw %}
+<h2>Nové filmy</h2>
 <ul>
-	{% raw %}{% for film in nejoblibenejsiFilmy %}{% endraw %}
+	{% raw %}{% for film in filmy %}{% endraw %}
 		<li>
 			{% raw %}{{ film }}{% endraw %}
 		</li>
 	{% raw %}{% endfor %}{% endraw %}
 </ul>
+```
+
+Může se hodit například v případě, že máme šablonu, která očekává určitý název proměnné, ale z dat ji máme pojmenovanou jinak.
+
+```liquid
+{% raw %}{% set filmy = mojeFilmy.oblibene %}{% endraw %}
+<h2>Oblíbené filmy</h2>
+{% raw %}{% include "seznamFilmu.njk" %}{% endraw %}
+
+{% raw %}{% set filmy = mojeFilmy.chciVidet %}{% endraw %}
+<h2>Chci vidět</h2>
+{% raw %}{% include "seznamFilmu.njk" %}{% endraw %}
 ```
 
 ## Úkol na teď
