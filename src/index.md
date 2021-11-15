@@ -69,3 +69,14 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [Data v Eleventy 2](data-v-eleventy-2)
 - [Zadání domácího úkolu (4)](domaci-ukol-4)
 <!-- - [Netlify CMS](netlify-cms) -->
+
+### 10. lekce 16. listopadu 2021
+
+- [Metadata](metadata)
+- [Nunjucks podmínky](nunjucks-podminky)
+
+<!--
+### 11. lekce 23. listopadu 2021
+
+### 12. lekce 30. listopadu 2021
+-->
