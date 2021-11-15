@@ -73,6 +73,8 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 ### 10. lekce 16. listopadu 2021
 
 - [Metadata](metadata)
+- [Ovládací panel vyhledávače](ovladaci-panel-vyhledavace)
+- [Google Analytics](google-analytics)
 - [Nunjucks podmínky](nunjucks-podminky)
 
 <!--
