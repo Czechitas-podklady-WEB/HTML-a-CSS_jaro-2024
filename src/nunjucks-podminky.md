@@ -12,6 +12,8 @@ Pokud chceme na stránce vypsat kus HTML jen v případě, že platí nějaká p
 {% raw %}{% endif %}{% endraw %}
 ```
 
+Dvojité rovná se `==` je zde záměrně. Stejně jako v jiných programovacích jazycích i zde plní roli porovnání. Samotné `=` slouží k přiřazení nové hodnoty.
+
 Pokud chceme vypsat něco jiného v případě, že podmínka neplatí, doplníme zápis o větev `{% raw %}{% else %}{% endraw %}`. Podmínku můžeme kombinovat i s filtry.
 
 ```liquid
@@ -28,3 +30,5 @@ Pokud chceme vypsat něco jiného v případě, že podmínka neplatí, doplním
 	<div>V kolekci není ani jedna položka.</div>
 {% raw %}{% endif %}{% endraw %}
 ```
+
+Více ukázek použití je v [dokumentaci](https://mozilla.github.io/nunjucks/templating.html#if).
