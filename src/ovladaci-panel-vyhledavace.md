@@ -30,4 +30,4 @@ Jako nápověda o struktuře webu a jak často se jednotlivé stránky aktualizu
 
 - Tagem v hlavičce `<meta name="robots" content="noindex, nofollow">`.
 
-- Souborem `robots.txt`. O jeho obsahu více obsahu například na [jakpsatweb.cz](https://www.jakpsatweb.cz/robots-txt.html).
+- Souborem `robots.txt`. O jeho obsahu více například na [jakpsatweb.cz](https://www.jakpsatweb.cz/robots-txt.html).
