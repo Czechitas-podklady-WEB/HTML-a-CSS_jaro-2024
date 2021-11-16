@@ -74,6 +74,7 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 
 - [Ovládací panel vyhledávače](ovladaci-panel-vyhledavace)
 - [Google Analytics](google-analytics)
+- [Cookies](cookies)
 - [Metadata](metadata)
 - [Nunjucks podmínky (dobrovolné)](nunjucks-podminky)
 
