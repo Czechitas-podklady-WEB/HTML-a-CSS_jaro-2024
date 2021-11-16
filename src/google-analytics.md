@@ -15,7 +15,7 @@ Nástroj pro sledování návštěvnosti webu.
 
 ## Nastavení
 
-Pro použití je nutné se přihlásit do [analytics.google.com](https://analytics.google.com/) a tam vytvořit účet pro konktrétní web. Průvodce nastavením vygeneruje kus kódu (`Tracking Code`), který je potřeba vložit do všech podstránek příslušného webu. Sledovací kód vypadá většinou takto:
+Pro použití je nutné se přihlásit do [analytics.google.com](https://analytics.google.com/) a tam vytvořit účet pro konktrétní web. Průvodce nastavením vygeneruje kus kódu (`Tracking Code`), který je potřeba vložit do všech podstránek příslušného webu mezi tagy `<head>`. Sledovací kód vypadá většinou takto:
 
 ```html
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -35,6 +35,8 @@ Pro použití je nutné se přihlásit do [analytics.google.com](https://analyti
 ```
 
 `UA-000000000-0` je identifikátor konkrétního účtu.
+
+Oficiální instrukce, jak kód nasadit, jsou popsány v [dokumentaci](https://support.google.com/analytics/answer/1008080?hl=cs).
 
 ## Úkol na teď
 
