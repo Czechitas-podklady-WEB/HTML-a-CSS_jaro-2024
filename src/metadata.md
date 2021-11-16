@@ -50,7 +50,7 @@ Adresu obrázku je spolehlivější psát celou i s doménou a protokolem (`http
 <meta property="og:image:height" content="630" />
 ```
 
-## Úkol na teď
+## Dobrovolný úkol na doma
 
 - Přidej do projektu meta tagy pro lepší sdílení webu na sociálních sítích.
 
