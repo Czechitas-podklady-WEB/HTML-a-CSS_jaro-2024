@@ -4,7 +4,7 @@ layout: base
 
 # Google Analytics
 
-Nástroj pro sledování návštěvnosti webu. [analytics.google.com](https://analytics.google.com/)
+Nástroj pro sledování návštěvnosti webu.
 
 - Počet návštěv denně.
 - Průměrná délka návštěvy.
