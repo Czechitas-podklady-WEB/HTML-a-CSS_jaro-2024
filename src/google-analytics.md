@@ -21,7 +21,7 @@ Pro použití je nutné se přihlásit do [analytics.google.com](https://analyti
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script
 	async
-	src="https://www.googletagmanager.com/gtag/js?id=UA-148856199-1"
+	src="https://www.googletagmanager.com/gtag/js?id=UA-000000000-0"
 ></script>
 <script>
 	window.dataLayer = window.dataLayer || []
