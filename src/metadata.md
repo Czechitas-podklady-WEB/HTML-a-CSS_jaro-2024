@@ -43,6 +43,13 @@ Doprovodný obrázek pro sdílení. Doporučený poměr stran je `2:1`. Pro [Fac
 />
 ```
 
+Adresu obrázku je spolehlivější psát celou i s doménou a protokolem (`http*`). Některé sociální sítě, chatovací aplikace si bez toho obrázek neumí načíst. Aby se mohli rychleji přizpůsobit rozměrům obrázku, je vhodné předchozí meta tag doplnit ještě o dva doplňkové s rozměry.
+
+```html
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+```
+
 ## Úkol na teď
 
 - Přidej do projektu meta tagy pro lepší sdílení webu na sociálních sítích.
