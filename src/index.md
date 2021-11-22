@@ -78,8 +78,10 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [Metadata](metadata)
 - [Nunjucks podmínky](nunjucks-podminky)
 
-<!--
 ### 11. lekce 23. listopadu 2021
 
+- [Dynamický název stránky](dynamicky-nazev-stranky)
+
+<!--
 ### 12. lekce 30. listopadu 2021
 -->
