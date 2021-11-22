@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Otázky a odpovědi
 ---
-
-# Otázky a odpovědi
 
 ## Domácí úkol
 

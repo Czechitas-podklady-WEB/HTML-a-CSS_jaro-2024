@@ -1,8 +1,7 @@
 ---
 layout: base
+title: CSS grid 2
 ---
-
-# CSS grid 2
 
 ## Opakování
 

@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Pojmenovávání
 ---
-
-# Pojmenovávání
 
 Nejednoduchý úkol. O tom svědčí i první výsledek vyhledávání na Googlu při zadání „[programmers hardest tasks](https://www.google.com/search?q=programmers+hardest+tasks)“. Na prvním místě je „Naming things.“ 😅 Dobré pojmenovávání v kódu ho činí přehlednějším. Přehlednější kód vede k úspoře času, snížení počtu chyb, snazší domluvě v týmu.
 

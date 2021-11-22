@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Google Analytics
 ---
-
-# Google Analytics
 
 Nástroj pro sledování návštěvnosti webu.
 

@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Lighthouse
 ---
-
-# Lighthouse
 
 Další z panelů vývojářských nástrojů. Sada testů pro automatickou analýzu rychlosti webu, přístupnosti, použití doporučených praktik, SEO.
 

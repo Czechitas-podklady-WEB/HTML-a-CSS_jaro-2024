@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Komunitní balíčky
 ---
-
-# Komunitní balíčky
 
 Na internetu se pohybuje spoustu dobrých duší, které napsaly a volně poskytují užitečný kód tak, abychom ho nemuseli psát znovu. Takové kódy najdeme typicky třeba na GitHubu nebo ve specializované databázi balíčků [npmjs.com](https://www.npmjs.com/). Jak balíček použít je většinou popsáno v `README.md`.
 

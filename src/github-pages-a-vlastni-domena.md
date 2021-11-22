@@ -1,8 +1,7 @@
 ---
 layout: base
+title: GitHub pages a vlastní doména
 ---
-
-# GitHub pages a vlastní doména
 
 Oficiální dokumentace: [docs.github.com/…/configuring-a-custom-domain-for-your-github-pages-site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 

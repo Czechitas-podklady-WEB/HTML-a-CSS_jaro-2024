@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Strukturování stylů
 ---
-
-# Strukturování stylů
 
 Větší projekty mohou mít stovky i tisíce řádků CSS. Pro větší přehlednost je lepší kód rozdělit do více souborů. Typicky po komponentách.
 

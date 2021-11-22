@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Nunjucks podmínky
 ---
-
-# Nunjucks podmínky
 
 Pokud chceme na stránce vypsat kus HTML jen v případě, že platí nějaká podmínka, použijeme `{% raw %}{% if %}{% endraw %}`.
 

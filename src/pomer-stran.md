@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Poměr stran
 ---
-
-# Poměr stran
 
 ## `aspect-ratio`
 

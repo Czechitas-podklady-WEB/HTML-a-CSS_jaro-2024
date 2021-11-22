@@ -1,8 +1,7 @@
 ---
 layout: base
+title: BEM
 ---
-
-# BEM
 
 Jedna z nejčastější taktik pojmenovávání tříd. Zlepšuje přehlednost, udržitelnost kódu. [Dokumentace](http://getbem.com/). Zkratka pro `Block Element Modifier`.
 

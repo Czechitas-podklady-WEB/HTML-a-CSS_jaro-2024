@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Ovládací panel vyhledávače
 ---
-
-# Ovládací panel vyhledávače
 
 Pokud zveřejňujeme web, většinou chceme, aby byl snadno dohledatelný pro případ, že někdo například nezná adresu. Pro kontrolu, že je web pro vyhledávače dobře úzpůsobený, určitě stojí za to ho zkusit vyhledat na [Seznamu](https://www.seznam.cz/), [Googlu](https://www.google.com/).
 

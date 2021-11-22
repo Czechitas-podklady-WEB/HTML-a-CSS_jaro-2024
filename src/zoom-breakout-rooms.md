@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Zoom
 ---
-
-# Zoom
 
 ## Úkol na teď
 

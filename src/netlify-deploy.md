@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Netlify deploy
 ---
-
-# Netlify deploy
 
 Alternativa GitHub pages. Také se umí zdarma propojit s repozitáři na GitHubu a vystavovat je jako veřejné stránky.
 

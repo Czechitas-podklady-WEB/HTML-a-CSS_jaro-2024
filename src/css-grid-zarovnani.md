@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Zarovnání v CSS gridu
 ---
-
-# Zarovnání v CSS gridu
 
 - `align-items` zarovná obsah ve svislé ose. Funguje podobně jako u flexboxu. Má smysl použít, pokud jsou některé řádky vyšší než položky.
 - (Naopak `justify-items` říká, jak se položky mají zarovnat po vodorovné ose.)

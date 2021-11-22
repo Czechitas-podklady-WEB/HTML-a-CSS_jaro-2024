@@ -1,5 +1,4 @@
 ---
 layout: base
+title: Netlify CMS
 ---
-
-# Netlify CMS

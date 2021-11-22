@@ -1,8 +1,7 @@
 ---
 layout: base
+title: GitHub účet
 ---
-
-# GitHub účet
 
 ## Úkol na doma
 

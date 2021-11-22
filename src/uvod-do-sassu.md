@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Úvod do SASSu
 ---
-
-# Úvod do SASSu
 
 SASS je obohacené CSS. Jedná se o takzvaný preprocesor. Kód napsaný v SASSu je potřeba nejdříve převést do CSS, aby kódu rozuměly i prohlížeče. Oficiální dokumentace je [sass-lang.com](https://sass-lang.com/).
 

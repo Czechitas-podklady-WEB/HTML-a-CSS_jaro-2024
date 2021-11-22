@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Cookies 🍪
 ---
-
-# Cookies 🍪
 
 Sbírat data o uživatelích pomocí Google Analytics není jen tak a mělo by splňovat podmínky GDPR, což je jeden z důvodů, proč většina internetu v současné době není skoro vůbec vidět přes vrstvu cookie lišt.
 

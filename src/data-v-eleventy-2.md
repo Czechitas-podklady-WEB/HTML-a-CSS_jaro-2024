@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Data v Eleventy 2
 ---
-
-# Data v Eleventy 2
 
 ## Filtry
 

@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Responzivní CSS grid
 ---
-
-# Responzivní CSS grid
 
 ## `min()`, `max()` and `clamp()`
 

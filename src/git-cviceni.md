@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Git cvičení
 ---
-
-# Git cvičení
 
 1. Vytvoř nový veřejný repozitář na GitHubu s názvem `git-cviceni`.
 

@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Druhý povinný domácí úkol
 ---
-
-# Druhý povinný domácí úkol
 
 - Najdi na Facebooku druhou pozvánku do Github classroom. (Zveřejním hned po lekci.)
 - Přijmi assignment.

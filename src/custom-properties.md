@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Custom properties
 ---
-
-# Custom properties
 
 Někdy označované i jako CSS proměnné/variables. Slouží k pojmenování hodnot. Typicky se hodí například pro hodnoty často se opakující, barvy, velikosti nadpisů.
 

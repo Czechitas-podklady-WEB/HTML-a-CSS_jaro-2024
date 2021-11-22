@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Třetí povinný domácí úkol
 ---
-
-# Třetí povinný domácí úkol
 
 - Najdi na Facebooku třetí pozvánku do Github classroom. (Zveřejním během lekce.)
 - Přijmi assignment.

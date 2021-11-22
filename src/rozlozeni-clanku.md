@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Rozložení článku
 ---
-
-# Rozložení článku
 
 Celé zadání: [github.com/…/Cviceni-CSS-grid-blog](https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-blog)
 

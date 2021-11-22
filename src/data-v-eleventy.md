@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Data v Eleventy
 ---
-
-# Data v Eleventy
 
 ## Front Matter
 

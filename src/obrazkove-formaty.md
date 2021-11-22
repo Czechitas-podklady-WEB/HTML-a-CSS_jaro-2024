@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Obrázkové formáty
 ---
-
-# Obrázkové formáty
 
 Velikost obrázkových souborů se snažíme držet co nejmenší, aby k návštěvníkům přes internet rychle doputovaly. Nepoužíváme proto zbytečně příliš kvalitní fotografie například pro malé náhledy v galerii. Pro zmenšení obrázků se ti může hodit online nástroj [Squoosh](https://squoosh.app/). Další možnou úsporou je volba vhodného formátu, přípony souboru. Na webu se najčastěji setkáváme s `.jpg`, `.png`, `.svg`.
 

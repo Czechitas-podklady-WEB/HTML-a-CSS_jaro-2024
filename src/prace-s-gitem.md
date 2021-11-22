@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Práce s gitem
 ---
-
-# Práce s gitem
 
 Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdílení s dalšími účastníky, napojení na další služby jako je například webový hosting.
 

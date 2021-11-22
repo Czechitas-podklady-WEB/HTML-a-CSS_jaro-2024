@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Síť
 ---
-
-# Síť
 
 Pro rychlé načítání webu je užitečné hlídat, co se přenáší přes síť, přes internet k uživateli. Každý přenesený kilobajt zabere nějaký čas. Dále záleží na pořádí. Typicky cílíme na to, aby se jako první načetl obsah, styly, obrázky toho, co uživatel uvidí jako první.
 

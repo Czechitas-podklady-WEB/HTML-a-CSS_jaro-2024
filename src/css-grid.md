@@ -1,8 +1,7 @@
 ---
 layout: base
+title: CSS grid
 ---
-
-# CSS grid
 
 Skupina vlastností pro nastavení rozložení prvků. Částečně se chová jako flexbox.
 

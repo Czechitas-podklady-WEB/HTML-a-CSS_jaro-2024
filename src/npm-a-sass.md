@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Npm a SASS
 ---
-
-# Npm a SASS
 
 ## Opakování
 
@@ -16,11 +15,11 @@ layout: base
 
   - Pro ignorování složky přidáváme do projektu soubor `.gitignore` s řádkem `/node_modules/`.
 
-- Pro sestavení/přeložení zdrojových souborů ze SASSu do CSS přidáváme do `package.json` v sekci `scripts` zkratku `"build": "sass zdroj.scss vystup.css"`. Po každé změně `zdroj.scss` pouštíme `npm run build`.
+- Pro sestavení/přeložení zdrojových souborů ze SASSu do CSS přidáváme do `package.json` v sekci `scripts` zkratku `"build": "sass zdroj.scss vystup.css"`. Po každé změně `zdroj.scss` pouštíme `npm run build`.
 
 ## Vývojový režim
 
-Pokud děláme ve zdrojových souborech hodně změn za sebou, můžeme si ušetřit práci a nepouštět `npm run build` ručně stále dokola. Balíček `sass` umí běžet i ve sledovacím režimu, kdy ho stačí jednou pustit a on udělá build s každou změnou.
+Pokud děláme ve zdrojových souborech hodně změn za sebou, můžeme si ušetřit práci a nepouštět `npm run build` ručně stále dokola. Balíček `sass` umí běžet i ve sledovacím režimu, kdy ho stačí jednou pustit a on udělá build s každou změnou.
 
 Do `scripts` v `package.json` přidáme `dev` (development) zkratku s přepínačem `--watch`.
 

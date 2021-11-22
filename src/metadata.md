@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Metadata
 ---
-
-# Metadata
 
 Do hlavičky `<head>` přidáváme mimo jiné různé doprovodné informace, které slouží pro lepší prezentaci stránky mimo viewport, který zobrazuje obsah `<body>`.
 

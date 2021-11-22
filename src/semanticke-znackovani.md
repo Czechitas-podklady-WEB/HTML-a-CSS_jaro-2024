@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Sémantické značkování
 ---
-
-# Sémantické značkování
 
 Při tvorbě obsahové části webu je důležité volit správné HTML značky. Není na místě vše obalovat jen do `<div>`. Ten volíme akorát v případě, kdy nám HTML nenabízí žádnou vhodnější značku.
 

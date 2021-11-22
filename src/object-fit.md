@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Vyplnění plochy obrázkem
 ---
-
-# Vyplnění plochy obrázkem
 
 Vlastností `object-fit` můžeš specifikovat, jak má obrázek vyplnit omezenou plochu. Pokud obrázku nastavíš rozměry, které mají jiný poměr stran, obrázek se deformuje.
 
