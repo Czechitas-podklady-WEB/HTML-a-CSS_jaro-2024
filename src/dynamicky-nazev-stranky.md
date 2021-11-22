@@ -45,6 +45,8 @@ nadpis: Dynamický název stránky
 <p>…</p>
 ```
 
+Nadpis můžeme předat přes data ve Front Matter podle ukázky výše nebo pomocí JSON souboru.
+
 A výsledné HTML pak bude vypadat takto:
 
 ### `podstranka/index.html`
@@ -52,3 +54,33 @@ A výsledné HTML pak bude vypadat takto:
 ```html
 <title>Dynamický název stránky | HTML a CSS 2</title>
 ```
+
+## Úkol na teď
+
+- V projektu postaveném na Eleventy s více podstránkami doplň do `<title>` název jednotlivých podstránek. Můžeš například rozšířit domácí úkol [filmy](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy) nebo navázat na bonusovou část v [galerii](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-galerie).
+
+  (Pokud nemáš na co navázat, můžeš si zde stáhnout hotovou galerii, kde stačí detailovým stránkám doplnit `<title>` obsahujíci popisek. [Galerie s bonusem](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-galerie/archive/refs/heads/reseni.zip))
+
+  ### Ukázka detailu filmu
+
+  ```html
+  <title>Duna | FILMY.cz</title>
+  ```
+
+  ### Ukázka detailové stránky s obrázkem galerie
+
+  ```html
+  <title>Jezero | Galerie</title>
+  ```
+
+### Bonus
+
+- Pokud sis v předchozím úkolu zvolila projekt s filmy, doplň do základního layoutu [meta tag](metadata) pro popis (`description`) s textem `Filmová databáze vybraných filmů. Web slouží jako cvičení práce s Eleventy.`
+
+- Pomocí podmínky pro stránky s detailem filmu použij text shrnující obsah filmu `{% raw %}{{ film.obsah.text }}{% endraw %}`.
+
+- Obsah je pro `description` většinou moc dlouhý. Pomocí filtru [truncate](https://mozilla.github.io/nunjucks/templating.html#truncate) ho ořízni jen na 100 znaků.
+
+- (Filtr nešťastně pro výpustku používá tři samostatné znaky tečky `...`, které většina fontů vykresluje příliš daleko od sebe. Nahraď je za speciální symbol tří teček `…`)
+
+- Nezapomeň zkontrolovat výsledné HTML třeba přes vývojářské nástroje, ve složce `dist` nebo jiným zobrazením zdrojového kódu stránky.
