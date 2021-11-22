@@ -80,6 +80,7 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 
 ### 11. lekce 23. listopadu 2021
 
+- [Facebook pixel](facebook-pixel)
 - [Dynamický název stránky](dynamicky-nazev-stranky)
 
 <!--
