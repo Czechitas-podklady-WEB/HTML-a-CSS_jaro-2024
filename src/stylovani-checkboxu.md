@@ -47,7 +47,7 @@ Pokud ho chceme přebarvit, můžeme sáhnout po `accent-color`.
 
 A tady flexibilita checkboxu končí. 😥 Dokonce u výše použitých stylů nemáme jistotu, že budou fungovat ve všech prohlížečích a když, tak nemusí vypadat úplně stejně. Accent-color na [Can I use](https://caniuse.com/?search=accent-color).
 
-Naštěstí nás zachraňují pokročilé selektory. Input můžeme pomocí CSS skrýt a udělat si vlastní třeba ze spanu. Původní checkbox v HTML záměrně necháváme, aby byla zachována další funkcionalita, o kterou se prohlížeč stará za nás třeba v případě odesílání dat na server. Různé ukázky stylování najdete najdeme například na [CSS-Tricks](https://css-tricks.com/the-checkbox-hack/).
+Naštěstí nás zachraňují pokročilé selektory. Input můžeme pomocí CSS skrýt a udělat si vlastní třeba ze spanu. Původní checkbox v HTML záměrně necháváme, aby byla zachována další funkcionalita, o kterou se prohlížeč stará za nás třeba v případě odesílání dat na server. Různé ukázky stylování najdeme například na [CSS-Tricks](https://css-tricks.com/the-checkbox-hack/).
 
 Checkbox provážeme se štítkem dvěma způsoby.
 
