@@ -71,7 +71,7 @@ Checkbox provážeme se štítkem dvěma způsoby.
 
 Výdohou druhého postupu je, že můžeme mít na stránce více klikatelných labelů, které můžou být i daleko od sebe. Musíme ale vymyslet unikátní `id`.
 
-`.mujCheckbox` stylujeme libovolným způsobem. Typicky z něho děláme čtvereček. Pokud je sousední input zaškrtnutý, přidáme fajfku. V prvním případě `input:checked + .vlastni {}` a v druhém `input:checked + label .vlastni {}`. Místo `+` pro vybrání souseda se může hodit i `~`, která je obecnější.
+Span `.vlastni` stylujeme libovolným způsobem. Typicky z něho děláme čtvereček. Pokud je sousední input zaškrtnutý, přidáme fajfku. V prvním případě `input:checked + .vlastni {}` a v druhém `input:checked + label .vlastni {}`. Místo `+` pro vybrání souseda se může hodit i `~`, která je obecnější.
 
 ## Úkol na teď
 
