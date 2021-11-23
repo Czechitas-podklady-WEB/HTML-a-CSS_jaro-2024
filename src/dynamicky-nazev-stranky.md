@@ -47,7 +47,7 @@ nadpis: Dynamický název stránky
 
 Nadpis můžeme předat přes data ve Front Matter podle ukázky výše nebo pomocí JSON souboru.
 
-A výsledné HTML pak bude vypadat takto:
+Výsledné HTML pak bude vypadat takto:
 
 ### `podstranka/index.html`
 
@@ -57,7 +57,7 @@ A výsledné HTML pak bude vypadat takto:
 
 ## Úkol na teď
 
-- V projektu postaveném na Eleventy s více podstránkami doplň do `<title>` název jednotlivých podstránek. Můžeš například rozšířit domácí úkol [filmy](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy) nebo navázat na bonusovou část v [galerii](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-galerie).
+- V projektu postaveném na Eleventy s více podstránkami doplň do `<title>` název jednotlivých podstránek. Můžeš například rozšířit domácí úkol s [filmy](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy) nebo navázat na bonusovou část v [galerii](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-galerie).
 
   (Pokud nemáš na co navázat, můžeš si zde stáhnout hotovou galerii, kde stačí detailovým stránkám doplnit `<title>` obsahujíci popisek. [Galerie s bonusem](https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-galerie/archive/refs/heads/reseni.zip))
 
