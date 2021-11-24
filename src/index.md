@@ -84,6 +84,7 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 - [Dynamický název stránky](dynamicky-nazev-stranky)
 - [Stylování checkboxu](stylovani-checkboxu)
 
-<!--
 ### 12. lekce 30. listopadu 2021
--->
+
+- [Vyhodnocení domácího úkolu: Filmy](vyhodnoceni-domaciho-ukolu-filmy)
+- [Kam dál](kam-dal)
