@@ -3,6 +3,8 @@ layout: base
 title: Kam dál
 ---
 
+- [Codemas: Dostaň Perníčka na Vánoce domů](https://codemas.cz/) <!-- Jak je to s JS? -->
+
 ## JavaScript
 
 Jednodenní kurzy.
