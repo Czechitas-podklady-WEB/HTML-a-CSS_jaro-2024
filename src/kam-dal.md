@@ -24,11 +24,15 @@ Dlouhodobé intenzivní kurzy.
 
 - Vizitka (web o tobě, portfolio, kontakt)
 - Pro kamarádku, kamaráda, známou, známého
+
+## Cvičení
+
 - Dodělat všechny bonusy ;)
+- Tipy z [CSS Tricks](https://css-tricks.com/front-end-challenges/)
 
 ## Junior frontend vývojářka
 
-- Občas se objeví nějaká nabídka v české frontend komunitě ([Frontendisti Facebook](https://www.facebook.com/frontendisti)).
+- Občas se objeví nějaká nabídka v české frontend komunitě ([Frontendisti na Facebooku](https://www.facebook.com/frontendisti)).
 - Udělat si účet na [LinkedInu](https://www.linkedin.com/). Sledovat účastnice webových digitálních akademií.
 - Přišpendlit si na profilové stránce na [GitHubu](https://github.com/) nezajímavější projekty.
 - Nebát se a odpovídat i na inzeráty předpokládající znalosti, které nemáte. Spousta jich je přestřelená.
