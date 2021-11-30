@@ -3,7 +3,7 @@ layout: base
 title: Kam dál
 ---
 
-- [Codemas: Dostaň Perníčka na Vánoce domů](https://codemas.cz/) <!-- Jak je to s JS? -->
+Právě běží [Codemas: Dostaň Perníčka na Vánoce domů](https://codemas.cz/). Kromě HTML a CSS si vyzkoušíte i JavaScript.
 
 ## JavaScript
 
@@ -28,12 +28,13 @@ Dlouhodobé intenzivní kurzy.
 
 ## Junior frontend vývojářka
 
-- Občas se objeví nějaká nabídka v české frontend komunitě ([Facebook](https://www.facebook.com/frontendisti)).
+- Občas se objeví nějaká nabídka v české frontend komunitě ([Frontendisti Facebook](https://www.facebook.com/frontendisti)).
 - Udělat si účet na [LinkedInu](https://www.linkedin.com/). Sledovat účastnice webových digitálních akademií.
 - Přišpendlit si na profilové stránce na [GitHubu](https://github.com/) nezajímavější projekty.
+- Nebát se a odpovídat i na inzeráty předpokládající znalosti, které nemáte. Spousta jich je přestřelená.
 
 ## Backend
 
-- PHP (typický webový backendový jazyk)
+- [PHP](https://www.czechitas.cz/kurzy/php) (typický webový backendový jazyk, u Czechitas zrovna není vypsaný)
 - [Python](https://www.czechitas.cz/kurzy/uvod-do-programovani-1-python)
 - [Java](https://www.czechitas.cz/kurzy/uvod-do-programovani-1-java)
