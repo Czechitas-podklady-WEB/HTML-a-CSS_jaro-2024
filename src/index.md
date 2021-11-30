@@ -88,5 +88,6 @@ Podklady pro podzimní online kurz navazující na [HTML a CSS 1](https://www.c
 
 - [Vyhodnocení domácího úkolu: Filmy](vyhodnoceni-domaciho-ukolu-filmy)
 - [Zabezpečení](zabezpeceni)
-- [Git historie](git-historie)
+- [Soubory ke stažení](soubory-ke-stazeni)
+- [Změna git historie](zmena-git-historie)
 - [Kam dál](kam-dal)
