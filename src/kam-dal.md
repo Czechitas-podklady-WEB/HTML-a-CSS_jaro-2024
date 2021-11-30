@@ -14,7 +14,7 @@ Jednodenní kurzy.
 
 ## Akademie
 
-Dlouhodobé intenzívní kurzy.
+Dlouhodobé intenzivní kurzy.
 
 - [Web](https://www.czechitas.cz/kurzy/digitalni-akademie-web) 👍
 - [(Datová analýza)](https://www.czechitas.cz/kurzy/digitalni-akademie-data)
@@ -31,3 +31,9 @@ Dlouhodobé intenzívní kurzy.
 - Občas se objeví nějaká nabídka v české frontend komunitě ([Facebook](https://www.facebook.com/frontendisti)).
 - Udělat si účet na [LinkedInu](https://www.linkedin.com/). Sledovat účastnice webových digitálních akademií.
 - Přišpendlit si na profilové stránce na [GitHubu](https://github.com/) nezajímavější projekty.
+
+## Backend
+
+- PHP (typický webový backendový jazyk)
+- [Python](https://www.czechitas.cz/kurzy/uvod-do-programovani-1-python)
+- [Java](https://www.czechitas.cz/kurzy/uvod-do-programovani-1-java)
