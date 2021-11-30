@@ -7,7 +7,7 @@ Nejednoduchý úkol. O tom svědčí i první výsledek vyhledávání na Googlu
 
 ## Třídy
 
-V HTML pojmenováváme třídy typicky podle obsahu obecnějším označením, aby se daly znovupoužít na více místech, kde se vyskytuje podobný prvek.
+V HTML pojmenováváme třídy typicky podle obsahu obecnějším označením, aby se daly znovu použít na více místech, kde se vyskytuje podobný prvek.
 
 ```diff
 - <h1 class="jedna">O nás</h1>

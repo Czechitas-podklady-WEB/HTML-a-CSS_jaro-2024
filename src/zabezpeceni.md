@@ -17,7 +17,7 @@ Soukromý repozitář pro použití GitHub pages vyžaduje placenou verzi.
 
 Funguje zdarma i s neveřejnými repozitáři, ale pozor na to, že výsledný web a všechny další podstránky, soubory, na které odkazuje jsou tím vlastně veřejné. Ostatní, u kterých je adresu těžké uhádnout, zůstávají „skryté“.
 
-## Znovupoužité heslo
+## Opakovaně použité heslo
 
 Velmi častou bezpečnostní dírou je špatně zabezpečený účet administrátora. Kde je to možné, používat `Two-factor authentication (2FA)`, dvoufázové ověření pomocí SMS, aplikace v telefonu.
 
