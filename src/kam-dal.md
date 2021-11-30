@@ -19,3 +19,15 @@ Dlouhodobé intenzívní kurzy.
 - [Web](https://www.czechitas.cz/kurzy/digitalni-akademie-web) 👍
 - [(Datová analýza)](https://www.czechitas.cz/kurzy/digitalni-akademie-data)
 - [(Testování)](https://www.czechitas.cz/podtema/testovani)
+
+## Vlastní projekt
+
+- Vizitka (web o tobě, portfolio, kontakt)
+- Pro kamarádku, kamaráda, známou, známého
+- Dodělat všechny bonusy ;)
+
+## Junior frontend vývojářka
+
+- Občas se objeví nějaká nabídka v české frontend komunitě ([Facebook](https://www.facebook.com/frontendisti)).
+- Udělat si účet na [LinkedInu](https://www.linkedin.com/). Sledovat účastnice webových digitálních akademií.
+- Přišpendlit si na profilové stránce na [GitHubu](https://github.com/) nezajímavější projekty.
