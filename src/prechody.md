@@ -39,6 +39,15 @@ Aplikuje přechody na všechny vlastnosti s trváním 0,3 sekundy.
 
 Může viditelně zpomalit vykreslování přechodu, což nemusí vypadat pěkně. Vývojář se vystavuje riziku, že omylem zanimuje i nějakou vlastnost nechtěně. Kód se hůře zpětně čte, protože není tak jasný záměr kódu.
 
+Pokud chcete přechodem animovat více vlastností, typicky třeba barvu textu a pozadí zároveň, tak může použít výčet.
+
+```css
+.prvek {
+	transition-property: color, background-color;
+	transition-duration: 0.3s;
+}
+```
+
 ## Cvičení
 
 Postupuj podle zadání na [github.com/…/Cviceni-Dostihy](https://github.com/Czechitas-podklady-WEB/Cviceni-Dostihy).
