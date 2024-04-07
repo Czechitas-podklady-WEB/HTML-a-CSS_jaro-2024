@@ -113,11 +113,12 @@ Matematický zápis všech vlastností výše dohromady.
 
 ### 3D
 
-[Ukázka kostky](https://codepen.io/alvaromontoro/pen/dyzggdp)
+- [Rotace pexeso karet](https://czechitas-podklady.cz/cviceni-pexeso/)
+- [Ukázka kostky](https://codepen.io/alvaromontoro/pen/dyzggdp)
 
 ### Skládání
 
-Na prvek je možné aplikovat více transformací narát pomocí řetězení.
+Na prvek je možné aplikovat více transformací naráz pomocí řetězení.
 
 ```css
 .prvek {
