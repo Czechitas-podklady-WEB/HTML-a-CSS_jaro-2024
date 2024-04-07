@@ -29,7 +29,25 @@
 				
 					<h1>Přechody</h1>
 				
-				<h2>Cvičení</h2>
+				<p>CSS přechody umožňují plynulé změny vlastností prvku, například barvy, velikosti nebo pozice. Přechody se provádí pomocí CSS vlastnosti <code>transition</code>. Přechody se provádí mezi dvěma stavy prvku, například při najetí myši nebo změně třídy.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.sipka</span> <span class="token punctuation">{</span><br>	<span class="token property">transition</span><span class="token punctuation">:</span> transform 1s<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">.sipka:hover</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>180deg<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p><img src="static/screenshots/hover-transition.gif" alt="hover transition"></p>
+<h2>Podvlastnosti</h2>
+<p>Vlastnost <code>transition</code> sdržuje několik podvlastností podobně jako třeba vlastnost <code>border</code> nebo <code>padding</code>.</p>
+<ul>
+<li><code>transition-property</code> určuje, které vlastnosti se mají přechodně měnit (hodnoty např. <code>color</code>, <code>transform</code>, <code>opacity</code>)</li>
+<li><code>transition-duration</code> délka trvání přechodu (hodnoty např. <code>0s</code>, <code>0.3s</code>, <code>750ms</code>)</li>
+<li><code>transition-delay</code> opozdí spuštění přechodu (hodnoty např. <code>0s</code>, <code>1s</code>, <code>500ms</code>)</li>
+<li><code>transition-timing-function</code> (hodnoty např. <code>ease</code>, <code>linear</code>, <code>ease-in</code>, <code>cubic-bezier(0.1, 0.7, 1, 0.1)</code>, <code>steps(4, jump-start)</code>)</li>
+</ul>
+<h2>Pro pokročilé</h2>
+<h3>Přechod na vše</h3>
+<p>Aplikuje přechody na všechny vlastnosti s trváním 0,3 sekundy.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Může viditelně zpomalit vykreslování přechodu, což nemusí vypadat pěkně. Vývojář se vystavuje riziku, že omylem zanimuje i nějakou vlastnost nechtěně. Kód se hůře zpětně čte, protože není tak jasný záměr kódu.</p>
+<p>Pokud chcete přechodem animovat více vlastností, typicky třeba barvu textu a pozadí zároveň, tak může použít výčet.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transition-property</span><span class="token punctuation">:</span> color<span class="token punctuation">,</span> background-color<span class="token punctuation">;</span><br>	<span class="token property">transition-duration</span><span class="token punctuation">:</span> 0.3s<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h2>Cvičení</h2>
 <p>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/Cviceni-Dostihy">github.com/…/Cviceni-Dostihy</a>.</p>
 
 			</main>
