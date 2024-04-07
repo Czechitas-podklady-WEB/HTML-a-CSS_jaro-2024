@@ -24,10 +24,26 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 
 ### 8. lekce: 8. dubna 2024 <small>(Filip)</small>
 
+- Transformace
+- Přechody
+
 ### 9. lekce: 15. dubna 2024 <small>(Filip)</small>
+
+- CSS animace
 
 ### 10. lekce: 22. dubna 2024 <small>(Filip)</small>
 
+- Bootstrap - CSS framework
+
 ### 11. lekce: 29. dubna 2024 <small>(Filip)</small>
 
+- Grafiky - vhodné formáty, komprese
+- Pseudoprvky
+- Formuláře
+
 ### 12. lekce: 6. května 2024 <small>(Filip)</small>
+
+- Pokročilejší formuláře
+- Pokročilejší CSS selektory
+- Hosting
+- JavaScript knihovny
