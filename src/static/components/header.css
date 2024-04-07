@@ -10,7 +10,7 @@
 	display: inline-flex;
 	align-items: center;
 	text-decoration: none;
-	color: var(--blue);
+	color: var(--blue-light-scheme);
 	justify-content: center;
 }
 .header__link span {
