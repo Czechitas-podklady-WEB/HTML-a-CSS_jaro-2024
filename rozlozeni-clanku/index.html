@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS-2/">
+		<title>
+			Rozložení článku | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Rozložení článku</h1>
+				
+				<p>Celé zadání: <a href="https://github.com/Czechitas-podklady-WEB/Cviceni-CSS-grid-blog">github.com/…/Cviceni-CSS-grid-blog</a></p>
+<h2>Rozložení</h2>
+<pre class="language-css"><code class="language-css"><span class="token selector">.kontejner</span> <span class="token punctuation">{</span><br>	<span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span><br>	<span class="token property">grid-template-columns</span><span class="token punctuation">:</span> 1fr 4fr 2fr<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">.polozka</span> <span class="token punctuation">{</span><br>	<span class="token property">grid-column</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">.polozka-na-cely-radek</span> <span class="token punctuation">{</span><br>	<span class="token property">grid-column</span><span class="token punctuation">:</span> 1 / -1<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h2>Specificita</h2>
+<p>Některé CSS selektory jsou pro prohlížeč důležitější než jiné. Nehledí pak na jejich pořadí, ale důležitost.</p>
+<p>Jakou barvu textu a pozadí bude <code>div</code> mít?</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>muj-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Lorem ipsum<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">div</span> <span class="token punctuation">{</span><br>	<span class="token property">background-color</span><span class="token punctuation">:</span> purple<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">.muj-text</span> <span class="token punctuation">{</span><br>	<span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">div</span> <span class="token punctuation">{</span><br>	<span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span><br>	<span class="token property">color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Pozadí bude žluté. Vítězí poslední nastavená barva.</p>
+<p>Text bude červený, protože selektor s třídou má větší specificitu než s názvem prvku.</p>
+<h2>Když už to jinak nejde <code>!important</code></h2>
+<pre class="language-css"><code class="language-css"><span class="token selector">div</span> <span class="token punctuation">{</span><br>	<span class="token property">color</span><span class="token punctuation">:</span> red <span class="token important">!important</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Zvyšuje důležitost aplikovaného stylu nad pravidla specificity. Běžně se stylování pomocí <code>!important</code> vyhýbáme, protože kód značně zesložiťuje. Díky tomu si zasloužilo i místo v <a href="https://csshell.dev/posts/overspecified-specificity/">CSS pekle 🔥</a>.</p>
+<h2>Podklady</h2>
+<ul>
+<li><a href="https://umaar.com/dev-tips/226-vs-code-selector-specificity/">Ukázka kalkulačky ve VS Code</a></li>
+<li><a href="https://www.vzhurudolu.cz/prirucka/css-kaskada#specificita">Vzhůru dolů</a></li>
+<li><a href="https://css-tricks.com/specifics-on-css-specificity/">CSS Tricks</a></li>
+</ul>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>

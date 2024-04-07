@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS-2/">
+		<title>
+			Práce s gitem | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Práce s gitem</h1>
+				
+				<p>Git je nástroj na správu kódu. Užitečný zejména pro zálohu kódu, sdílení s dalšími účastníky, napojení na další služby jako je například webový hosting.</p>
+<h2>Git vs GitHub</h2>
+<ul>
+<li>Git si instaluješ k sobě na počítač.</li>
+<li><a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/">GitLab</a>, <a href="https://bitbucket.org/">Bitbucket</a> jsou služby, které si dobře rozumí s gitem. Umí si od něj nechat nahrát kód a tím ho zazálohovat v internetu.</li>
+</ul>
+<h2>Ověření instalace</h2>
+<ul>
+<li>
+<p>Ve Visual Studio Code otevři nový terminál / příkazovou řádku přes horní lištu <code>Terminal</code> &gt; <code>New Terminal</code>.</p>
+<p><img src="static/screenshots/vscode-new-terminal.png" alt="New Terminal"></p>
+</li>
+<li>
+<p>U spodní hrany ti vyjede záložka <span style="text-transform: uppercase;">Terminal</span>. Může vypadat například takto:</p>
+<p><img src="static/screenshots/terminal-bash.png" alt="Bash"></p>
+<p><img src="static/screenshots/terminal-cmd.png" alt="CMD"></p>
+<p><img src="static/screenshots/terminal-powershell.png" alt="Powershell"></p>
+<p><img src="static/screenshots/terminal-git-bash.png" alt="Git Bash"></p>
+</li>
+<li>
+<p>Klikni do ní myší a napiš <code>git --version</code>. Stiskni klávesu <code>Enter</code>. Pokud uděláš překlep, použij šipky a klávesu <code>Backspace</code> nebo <code>Delete</code>. Na klikání myší do určité části textu se moc nespoléhej. Terminál je z doby, kdy myši ještě nebyly vynalezené. Ovládá se tak jen z klávesnice.</p>
+</li>
+<li>
+<p>Pokud máš git nainstalovaný, na následujícím řádku by se ti mělo vypsat něco jako <code>git version 2.33.0</code> nebo třeba <code>git version 2.20.1.windows.1</code>. Výpis se liší například podle tvého systému (Windows, Mac, Linux) a verze.</p>
+<p><img src="static/screenshots/terminal-git-version.png" alt="git --version"></p>
+</li>
+<li>
+<p>Pokud ve výpisu vidíš <code>Command 'git' not found, did you mean …</code>, <code>'git' is not recognized as an internal or external command, operable program or batch file.</code> nebo podobnou hlášku, je možné, že máš v příkaze <code>git ‑‑version</code> překlep nebo nemáš git nainstalovaný. Zkus příkaz znovu napsat a spustit klávesou <code>Enter</code>. Nic víc nepiš. Znak <code>$</code> nebo <code>&gt;</code> bývá v příkazové řádce předchystaný a my ho tedy při zadávání příkazů neopisujeme.</p>
+<p><img src="static/screenshots/terminal-git-version-preklep.png" alt="překlep"></p>
+</li>
+</ul>
+<h2>První krůčky s gitem</h2>
+<ul>
+<li>
+<p>Pomocí gitu budeš na projektech zaznamenávat jednotlivé kroky, úpravy kódu, html, css, ale i obrázků. Vznikne tím historie, díky které si později budeš moct připomenout, proč jsi co v kódu měnila a případně se budeš moct ke starší verzi i vrátit, když třeba zjistíš, že původní varianta byla lepší nebo se ti aktuální rozbila a nedaří se ti ji opravit.</p>
+</li>
+<li>
+<p>Každý krok, balíček změn, které typicky řeší jednu menší komponentu, stylování tlačítka, přidání navigace na spránce apod. se v názvosloví gitu jmenuje <code>commit</code>. Každý commit má svého autora, a proto musíš gitu říct, jak se jmenuješ a jaká je tvá e-mailová adresa. Pro oba údaje je ideální vyplnit stejné údaje jako na <a href="https://github.com/">GitHubu</a>.</p>
+</li>
+<li>
+<p>Jméno nastav příkazem <code>git config --global user.name &quot;Jméno Příjmení&quot;</code> a stiskni <code>Enter</code>.</p>
+</li>
+<li>
+<p>E-mail nastav příkazem <code>git config --global user.email &quot;muj@email.cz&quot;</code> a stiskni <code>Enter</code>.</p>
+<p><img src="static/screenshots/terminal-git-name-email.png" alt="jméno a e-mail"></p>
+</li>
+<li>
+<p>Většinou se také hodí gitu říct, že jako hlavní nástroj pro psaní kódu používáš Visual Studio Code. To uděláš příkazem <code>git config --global core.editor &quot;code --wait&quot;</code>.</p>
+</li>
+<li>
+<p>Toto nastavení je pro všechny projekty společné a stačí ho po čerstvé instalaci gitu provést pouze jednou.</p>
+</li>
+<li>
+<p>Pokud si chceš zkontrolovat, že máš hodnoty správně nastavené, pusť příkazy bez hodnoty v uvozovkách.</p>
+<p><img src="static/screenshots/terminal-git-kontrola.png" alt="kontrola"></p>
+</li>
+</ul>
+<h2>Vytvoření repozitáře z nuly</h2>
+<p>Žádný počítač nevydrží věčně. Radši se připrav na nejhorší. Pro případ, že by se tvé zařízení jednou prostě neprobralo, radši všechnu práci zálohuj. Jedna z nejpopulárnějších služeb pro uchování kódu online je <a href="https://github.com/">GitHub</a>. Mimo jiné díky tomu, že nabízí spoustu funkcí zdarma.</p>
+<ul>
+<li>
+<p>V gitu a na GitHubu je praktické rozdělovat weby zvlášť na jednotlivé repozitáře. Každá takový repozitář má svůj vlastní název, historii změn a další nastavení. Nový repozitář vytvořím ikonkou ➕ v pravém horním rohu zvolením <code>New repository</code>.</p>
+<p><img src="static/screenshots/github-new-repository.png" alt="New repository na GitHubu"></p>
+</li>
+<li>
+<p>Každý repozitář musí mít vyplněné jméno.</p>
+<p><img src="static/screenshots/github-new-repository-name.png" alt="New repository name"></p>
+</li>
+<li>
+<p>Ve zbylém nastavení je vhodné zvolit <code>Public</code>, což umožní zapnout GitHub pages, které si ukážeme později. Ostatní zaškrtávátka můžou zůstat prázdná.</p>
+<p><img src="static/screenshots/github-new-repository-dalsi-nastaveni.png" alt="další nastavení"></p>
+</li>
+<li>
+<p>Podle následujícího postupu si vytvoř složku s repozitářem u sebe na počítači, ve které budeš vytvářet html a css kód, případně přikládat obrázky a jiné typy souborů.</p>
+<ul>
+<li>
+<p>Otevři ve Visual Studio Code složku, kam běžně dáváš většinu webových projektů.</p>
+</li>
+<li>
+<p>Otevři terminál a zadej do něj <code>git clone https://github.com/FilipChalupa/muj-prvni-web.git</code>. Adresu nahraď tvou vlastní.</p>
+<p><img src="static/screenshots/github-kopirovat-url.png" alt="kopie url"></p>
+<p><img src="static/screenshots/git-clone.png" alt="git clone"></p>
+</li>
+<li>
+<p>Otevři ve Visual Studio Code jen nově vytvořenou složku.</p>
+<p><img src="static/screenshots/vscode-open-folder.png" alt="open folder"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Práce na projektu</h2>
+<p>Pomocí <code>git clone …</code> sis vytvořila složku, která je provázaná s GitHub repozitářem. V dalších krocích následuje postup, jak přidávat a zálohovat nový obsah.</p>
+<ol>
+<li>Přidej/uprav nějaký soubor nebo několik spolu souvisejících souborů.</li>
+<li>V příkazové řádce označ soubory, že jsou nachystané pro zálohu pomocí <code>git add .</code></li>
+<li>Balíček změn pojmenuj přes <code>git commit -m &quot;Stručný popis změn na pár slov&quot;</code>.</li>
+<li>Commit nahraj na GitHub zadáním <code>git push</code>.</li>
+<li>Zkontroluj, že změny se ukazují na GitHubu a pokračuj od bodu 1.</li>
+</ol>
+<h2>Úkol na teď</h2>
+<p>Postupuj podle <a href="git-cviceni">zadání zde</a>.</p>
+<h2>GitHub pages</h2>
+<p>Kromě podpory gitu GitHub nabízí doplňkovou službu GitHub pages, díky které je možné si nechat zdarma hostovat stránky.</p>
+<ol>
+<li>
+<p>Nastavení najdeš pod tlačítkem <code>Settings</code>.</p>
+<p><img src="static/screenshots/github-settings.png" alt="tlačítko Settings"></p>
+</li>
+<li>
+<p>V sekci <code>Pages</code>.</p>
+<p><img src="static/screenshots/github-settings-pages.png" alt="tlačítko Pages"></p>
+</li>
+<li>
+<p>V <code>Source</code> zvol větev <code>main</code>/<code>master</code> a ulož. O kousek výše se zobrazí zelená bublina s veřejnou adresou, kde web z kódu v repozitáři nově běží.</p>
+<p><img src="static/screenshots/github-pages-branch.png" alt="branch"></p>
+</li>
+</ol>
+<h2>Fork</h2>
+<p>Občas se hodí navázat na práci, kterou začal někdo jiný. Tlačítkem <code>Fork</code> u cizího repozitáře vytvoříš tvou vlastní kopii, kterou můžeš dále upravovat, aniž bys zasáhla do původního kódu patřícího někomu jinému. Tuto fukci můžeš využít například pro řešení budoucích cvičení během lekcí zadaných v samostatných repozitářích.</p>
+<ol>
+<li>
+<p>Tlačítkem <code>Fork</code> vytvoříš kopii.</p>
+<p><img src="static/screenshots/fork-tlacitko.png" alt="tlačítko fork"></p>
+</li>
+<li>
+<p>V nově vzniklém repozitář zůstane poznámka s odkazem na originál.</p>
+<p><img src="static/screenshots/fork-odkaz-na-puvodni-repozitar.png" alt="odkaz na původní repozitář"></p>
+</li>
+<li>
+<p>Pod rozkliknutým zeleným tlačítkem <code>Code</code> najdeš adresu pro klonování.</p>
+<p><img src="static/screenshots/github-code-url.png" alt="code"></p>
+</li>
+</ol>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>
