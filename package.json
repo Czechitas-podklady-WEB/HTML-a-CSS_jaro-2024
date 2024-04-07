@@ -1,24 +1,25 @@
 {
-	"name": "html-a-css-2",
+	"name": "html-a-css",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "eleventy --serve",
+		"start": "eleventy --serve",
+		"dev": "npm start",
 		"build": "eleventy"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Czechitas-podklady-WEB/HTML-a-CSS-2.git"
+		"url": "git+https://github.com/Czechitas-podklady-WEB/HTML-a-CSS_jaro-2024.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/Czechitas-podklady-WEB/HTML-a-CSS-2/issues"
+		"url": "https://github.com/Czechitas-podklady-WEB/HTML-a-CSS_jaro-2024/issues"
 	},
-	"homepage": "https://github.com/Czechitas-podklady-WEB/HTML-a-CSS-2#readme",
+	"homepage": "https://github.com/Czechitas-podklady-WEB/HTML-a-CSS_jaro-2024#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^0.12.1",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2"

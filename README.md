@@ -1,6 +1,6 @@
-# HTML a CSS 2
+# HTML a CSS
 
-Podklady pro online kurz [HTML a CSS 2](https://www.czechitas.cz/kurzy/html-a-css-2) od 7. 9. 2021 do 30. 11. 2021.
+Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css) od 19. 2. 2024 do 6. 5. 2024.
 
 ## Instalace závislostí
 
