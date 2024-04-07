@@ -16,6 +16,6 @@ module.exports = function (eleventyConfig) {
 			htmlTemplateEngine: 'njk',
 			markdownTemplateEngine: 'njk',
 		},
-		pathPrefix: '/HTML-a-CSS-2/',
+		pathPrefix: '/HTML-a-CSS_jaro-2024/',
 	}
 }
