@@ -29,7 +29,63 @@
 				
 					<h1>Transformace</h1>
 				
-				<h2>Cvičení</h2>
+				<p>CSS transformace umožňují prvků na stránce měnit jejich velikost, rotaci, posunutí a zkreslení. Transformace se provádí pomocí CSS vlastnosti <code>transform</code>. Transformace se provádí vzhledem k původní velikosti prvku a neovlivňují pozice ostatní prvků na stránce.</p>
+<h2>Změna velikosti prvku</h2>
+<h3>Základní</h3>
+<p>Následující kód zařídí, aby se prvek se třídou <code>prvek</code> jevil dvakrát větší, než je jeho původní velikost.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>2<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Pouze v jedné ose</h3>
+<p>Další kód naopak způsobí, že prvek bude třikrát větší ve směru osy x. Tedy velmi široký.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleX</span><span class="token punctuation">(</span>3<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>A pro ovlivnění pouze velikosti na ose y použijeme <code>scaleY</code>. Následující kód zmenší prvek na polovinu výšky.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Příklad užití</h3>
+<ul>
+<li>Zvětšení obrázku při najetí myši.</li>
+</ul>
+<h2>Rotace prvku</h2>
+<p>Rotace prvku se provádí pomocí funkce <code>rotate</code>. Následující kód otočí prvek o 45 stupňů.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Příklad užití</h3>
+<ul>
+<li>Ikonka křížku pouze v HTML a CSS (bez obrázku).</li>
+</ul>
+<h2>Posunutí prvku</h2>
+<p>Posunutí prvku se provádí pomocí funkce <code>translate</code>. Následující kód posune prvek o <code>50px</code> na ose x (tedy doprava) a o <code>100px</code> na ose y (tedy dolů).</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>50px<span class="token punctuation">,</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Procentuální hodnoty</h3>
+<p>Na rozdíl od <code>position: relative</code>, kde například <code>left: 50%</code> znamená posunutí prvku od levé strany (tedy doprava) o <code>50%</code> šířky rodiče, u <code>transform</code> znamená <code>translateX(50%)</code> posunutí prvku o <code>50%</code> jeho vlastní šířky.</p>
+<h3>Příklad užití</h3>
+<ul>
+<li>Podobně jako <code>position: relative</code>.</li>
+</ul>
+<h2>Počátek</h2>
+<p>S vlastností <code>transform</code> se pojí i vlastnost <code>transform-origin</code>, která určuje bod, kolem kterého se transformace provádí. Výchozí hodnota je <code>50% 50%</code>, tedy střed prvku. Origin/počátek si můžeme třeba v případě rotace představit jako pomyslný špendlík, který do prvku píchneme a kolem kterého se prvek pak otáčí. První hodnota odpovídá pozici špendlíku na ose x, druhá na ose y.</p>
+<h3>Výchozí hodnota</h3>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform-origin</span><span class="token punctuation">:</span> 50% 50%<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p><img src="static/screenshots/transform-origin-center.gif" alt="transform-origin: 50% 50%"></p>
+<h3>Uprostřed nahoře</h3>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform-origin</span><span class="token punctuation">:</span> 50% 0<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p><img src="static/screenshots/transform-origin-top.gif" alt="transform-origin: 50% 0"></p>
+<h3>Příklad užití</h3>
+<ul>
+<li>Ikonka šipky pouze v HTML a CSS (bez obrázku).</li>
+</ul>
+<h2>Pro pokročilé</h2>
+<h3>Zkosení</h3>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew">MDN skew</a></p>
+<h3>Matice</h3>
+<p>Matematický zápis všech vlastností výše dohromady.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix">MDN matrix</a></p>
+<h3>3D</h3>
+<p><a href="https://codepen.io/alvaromontoro/pen/dyzggdp">Ukázka kostky</a></p>
+<h3>Skládání</h3>
+<p>Na prvek je možné aplikovat více transformací narát pomocí řetězení.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>2<span class="token punctuation">)</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span> <span class="token function">translate</span><span class="token punctuation">(</span>50px<span class="token punctuation">,</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Moderní, zkrácený zápis</h3>
+<p>Prohlížeče relativně nově umí transformace bez vlastnosti <code>transform</code>.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">scale</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span><br>	<span class="token property">rotate</span><span class="token punctuation">:</span> 45deg<span class="token punctuation">;</span><br>	<span class="token property">translate</span><span class="token punctuation">:</span> 50px 100px<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<h2>Cvičení</h2>
 <p>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/Cviceni-Transformace">github.com/…/Cviceni-Transformace</a>.</p>
 <p>Vycházej z předpřipraveného kódu v repozitáři. Máš v něm nachystaný už <code>index.html</code>, styly a obrázky.</p>
 
