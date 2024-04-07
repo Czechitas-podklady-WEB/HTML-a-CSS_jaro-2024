@@ -39,7 +39,7 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus-visible {
 	text-decoration: none;
 }
 

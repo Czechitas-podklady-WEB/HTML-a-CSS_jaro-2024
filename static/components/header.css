@@ -21,6 +21,6 @@
 	margin-right: 0.4em;
 }
 .header__link:hover,
-.header__link:focus {
+.header__link:focus-visible {
 	filter: drop-shadow(0 0 10px #e6007f21);
 }
