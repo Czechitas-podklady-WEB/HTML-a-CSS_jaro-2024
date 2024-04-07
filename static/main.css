@@ -2,12 +2,22 @@
 @import 'components/layout.css';
 
 :root {
-	--pink: #e6007e;
-	--blue: #2d2e83;
+	--pink-light-scheme: #e6007e;
+	--blue-light-scheme: #283891;
+	--pink-dark-scheme: #ff83c7;
+	--blue-dark-scheme: #708aff;
+	--pink: var(--pink-light-scheme);
+	--blue: var(--blue-light-scheme);
+	box-sizing: border-box;
+	color-scheme: light;
 }
 
-html {
-	box-sizing: border-box;
+@supports (color: light-dark(black, white)) {
+	:root {
+		color-scheme: light dark;
+		--pink: light-dark(var(--pink-light-scheme), var(--pink-dark-scheme));
+		--blue: light-dark(var(--blue-light-scheme), var(--blue-dark-scheme));
+	}
 }
 
 *,
