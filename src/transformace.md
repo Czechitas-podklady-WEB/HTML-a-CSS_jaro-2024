@@ -17,6 +17,13 @@ Následující kód zařídí, aby se prvek se třídou `prvek` jevil dvakrát v
 }
 ```
 
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 2;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
+
 ### Pouze v jedné ose
 
 Další kód naopak způsobí, že prvek bude třikrát větší ve směru osy x. Tedy velmi široký.
@@ -27,6 +34,13 @@ Další kód naopak způsobí, že prvek bude třikrát větší ve směru osy x
 }
 ```
 
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 3 1;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
+
 A pro ovlivnění pouze velikosti na ose y použijeme `scaleY`. Následující kód zmenší prvek na polovinu výšky a převrátí vzhůru nohama.
 
 ```css
@@ -34,6 +48,13 @@ A pro ovlivnění pouze velikosti na ose y použijeme `scaleY`. Následující k
 	transform: scaleY(-0.5);
 }
 ```
+
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 1 -0.5;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 
 ### Příklad užití
 
@@ -49,6 +70,13 @@ Rotace prvku se provádí pomocí funkce `rotate`. Následující kód otočí p
 }
 ```
 
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="rotate: 45deg;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
+
 ### Příklad užití
 
 - Ikonka křížku pouze v HTML a CSS (bez obrázku).
@@ -62,6 +90,13 @@ Posunutí prvku se provádí pomocí funkce `translate`. Následující kód pos
 	transform: translate(50px, 100px);
 }
 ```
+
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="translate: 0.5em 1em;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 
 ### Procentuální hodnoty
 
