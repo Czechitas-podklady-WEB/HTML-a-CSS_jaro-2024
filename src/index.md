@@ -26,7 +26,7 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 
 - [Transformace](transformace)
 - [Přechody](prechody)
-- [Domácí úkol: Kontakty](domaci-ukol-kontakty)
+- [Domácí úkol: Recepty](domaci-ukol-recepty)
 
 ### 9. lekce: 15. dubna 2024 <small>(Filip)</small>
 
