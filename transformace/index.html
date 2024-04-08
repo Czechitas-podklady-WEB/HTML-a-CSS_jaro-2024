@@ -80,7 +80,10 @@
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>50px<span class="token punctuation">,</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
 	<span>🙂</span>
-	<span style="translate: 0.5em 1em;">😀</span>
+	<span style="position: relative;">
+		<span style="opacity: 0.2;">😀</span>
+		<span style="position: absolute; inset: 0; translate: 0.5em 0.7em;">😀</span>
+	</span>
 	<span>😂</span>
 	<span>😱</span>
 </div>
@@ -116,6 +119,15 @@
 <h3>Skládání</h3>
 <p>Na prvek je možné aplikovat více transformací naráz pomocí řetězení.</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>2<span class="token punctuation">)</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span> <span class="token function">translate</span><span class="token punctuation">(</span>50px<span class="token punctuation">,</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="position: relative;">
+		<span style="opacity: 0.2;">😀</span>
+		<span style="position: absolute; inset: 0; translate: 1em 0.7em; scale: 2; rotate: 45deg;">😀</span>
+	</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 <h3>Moderní, zkrácený zápis</h3>
 <p>Prohlížeče relativně nově umí transformace bez vlastnosti <code>transform</code>.</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">scale</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span><br>	<span class="token property">rotate</span><span class="token punctuation">:</span> 45deg<span class="token punctuation">;</span><br>	<span class="token property">translate</span><span class="token punctuation">:</span> 50px 100px<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
