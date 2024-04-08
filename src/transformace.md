@@ -93,7 +93,10 @@ Posunutí prvku se provádí pomocí funkce `translate`. Následující kód pos
 
 <div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
 	<span>🙂</span>
-	<span style="translate: 0.5em 1em;">😀</span>
+	<span style="position: relative;">
+		<span style="opacity: 0.2;">😀</span>
+		<span style="position: absolute; inset: 0; translate: 0.5em 0.7em;">😀</span>
+	</span>
 	<span>😂</span>
 	<span>😱</span>
 </div>
@@ -160,6 +163,16 @@ Na prvek je možné aplikovat více transformací naráz pomocí řetězení.
 	transform: scale(2) rotate(45deg) translate(50px, 100px);
 }
 ```
+
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="position: relative;">
+		<span style="opacity: 0.2;">😀</span>
+		<span style="position: absolute; inset: 0; translate: 1em 0.7em; scale: 2; rotate: 45deg;">😀</span>
+	</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 
 ### Moderní, zkrácený zápis
 
