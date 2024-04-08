@@ -50,4 +50,5 @@ Pokud chcete přechodem animovat více vlastností, typicky třeba barvu textu a
 
 ## Cvičení
 
-Postupuj podle zadání na [github.com/…/Cviceni-Dostihy](https://github.com/Czechitas-podklady-WEB/Cviceni-Dostihy).
+- Postupuj podle zadání na [github.com/…/Cviceni-Dostihy](https://github.com/Czechitas-podklady-WEB/Cviceni-Dostihy).
+- Oživte pomocí přechodů houpačku z [předchozího cvičení](https://github.com/Czechitas-podklady-WEB/Cviceni-Transformace), aby jedno přehoupnutí trvalo jednu sekundu.
