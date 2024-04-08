@@ -27,11 +27,11 @@ Další kód naopak způsobí, že prvek bude třikrát větší ve směru osy x
 }
 ```
 
-A pro ovlivnění pouze velikosti na ose y použijeme `scaleY`. Následující kód zmenší prvek na polovinu výšky.
+A pro ovlivnění pouze velikosti na ose y použijeme `scaleY`. Následující kód zmenší prvek na polovinu výšky a převrátí vzhůru nohama.
 
 ```css
 .prvek {
-	transform: scaleY(0.5);
+	transform: scaleY(-0.5);
 }
 ```
 
