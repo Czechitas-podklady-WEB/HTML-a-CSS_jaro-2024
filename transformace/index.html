@@ -35,11 +35,29 @@
 <h3>Základní</h3>
 <p>Následující kód zařídí, aby se prvek se třídou <code>prvek</code> jevil dvakrát větší, než je jeho původní velikost.</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>2<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 2;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 <h3>Pouze v jedné ose</h3>
 <p>Další kód naopak způsobí, že prvek bude třikrát větší ve směru osy x. Tedy velmi široký.</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleX</span><span class="token punctuation">(</span>3<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
-<p>A pro ovlivnění pouze velikosti na ose y použijeme <code>scaleY</code>. Následující kód zmenší prvek na polovinu výšky.</p>
-<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 3 1;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
+<p>A pro ovlivnění pouze velikosti na ose y použijeme <code>scaleY</code>. Následující kód zmenší prvek na polovinu výšky a převrátí vzhůru nohama.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span>-0.5<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="scale: 1 -0.5;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 <h3>Příklad užití</h3>
 <ul>
 <li>Zvětšení obrázku při najetí myši.</li>
@@ -47,6 +65,12 @@
 <h2>Rotace prvku</h2>
 <p>Rotace prvku se provádí pomocí funkce <code>rotate</code>. Následující kód otočí prvek o 45 stupňů.</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="rotate: 45deg;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 <h3>Příklad užití</h3>
 <ul>
 <li>Ikonka křížku pouze v HTML a CSS (bez obrázku).</li>
@@ -54,6 +78,12 @@
 <h2>Posunutí prvku</h2>
 <p>Posunutí prvku se provádí pomocí funkce <code>translate</code>. Následující kód posune prvek o <code>50px</code> na ose x (tedy doprava) a o <code>100px</code> na ose y (tedy dolů).</p>
 <pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>50px<span class="token punctuation">,</span> 100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<div style="display: flex; gap: 1em; justify-content: center; padding-block: 0.5em; font-size: 2em;">
+	<span>🙂</span>
+	<span style="translate: 0.5em 1em;">😀</span>
+	<span>😂</span>
+	<span>😱</span>
+</div>
 <h3>Procentuální hodnoty</h3>
 <p>Na rozdíl od <code>position: relative</code>, kde například <code>left: 50%</code> znamená posunutí prvku od levé strany (tedy doprava) o <code>50%</code> šířky rodiče, u <code>transform</code> znamená <code>translateX(50%)</code> posunutí prvku o <code>50%</code> jeho vlastní šířky.</p>
 <h3>Příklad užití</h3>
