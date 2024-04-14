@@ -89,3 +89,7 @@ V CSS pak, pokud chceme třeba pro tmavé téma použít jiné barvy, můžeme p
 	}
 }
 ```
+
+## Cvičení
+
+Postupuj podle zadání na [github.com/…/cviceni-media-preference](https://github.com/Czechitas-podklady-WEB/cviceni-media-preference).
