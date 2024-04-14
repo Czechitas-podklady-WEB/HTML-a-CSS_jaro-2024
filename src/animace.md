@@ -150,7 +150,7 @@ Alternativně můžeme použít `animation-direction: alternate`, který bude an
 }
 
 .prvek {
-	animation: ping-pong 2s infinite;
+	animation: ping-pong 2s infinite alternate;
 }
 ```
 
