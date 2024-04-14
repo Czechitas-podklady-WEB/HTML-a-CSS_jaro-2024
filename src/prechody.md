@@ -18,7 +18,7 @@ CSS přechody umožňují plynulé změny vlastností prvku, například barvy, 
 
 ## Podvlastnosti
 
-Vlastnost `transition` sdržuje několik podvlastností podobně jako třeba vlastnost `border` nebo `padding`.
+Vlastnost `transition` sdružuje několik podvlastností podobně jako třeba vlastnost `border` nebo `padding`.
 
 - `transition-property` určuje, které vlastnosti se mají přechodně měnit (hodnoty např. `color`, `transform`, `opacity`)
 - `transition-duration` délka trvání přechodu (hodnoty např. `0s`, `0.3s`, `750ms`)
