@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Potlačení animací a tmavé téma | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Potlačení animací a tmavé téma</h1>
+				
+				<h2>Potlačení animací</h2>
+<p>Přechody a animace mohu být rušivé pro některé uživatele. Některým uživatelům mohou přechody způsobovat nevolnost, jiní mohou mít problémy s koncentrací. Animace také rychleji vybíjejí baterku. Pro tyto uživatele je na místě animace potlačit.</p>
+<p>Pomocí media query můžeme rozpoznat, že uživatel má na svém zařízení nastavené snížené pohyblivé efekty a v takovém případě animace zrušit.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">animation</span><span class="token punctuation">:</span> blikani 1s infinite<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span>prefers-reduced-motion<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><br>	<span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>		<span class="token property">animation</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<h2>Vývojářské nástroje</h2>
+<p>Každý kód je dobré si vyzkoušet. Ve vývojářských nástrojích v záložce <code>Rendering</code>, česky <code>Vykreslování</code>, si můžete zkusit zapnout emulaci snížení pohybových efektů.</p>
+<p><img src="static/screenshots/emulation.png" alt="vývojářské nástroje"></p>
+<p>Pokud budete mít nastaveno <code>prefers-reduced-motion: reduce</code>, klokan níže by se neměl pohybovat.</p>
+<style>
+	@keyframes klokan {
+		0%, 100% {
+			transform: translateX(0);
+		}
+		25%, 75% {
+			transform: translateX(1em);
+		}
+		50% {
+			transform: translateX(2em);
+		}
+	}
+	@keyframes klokan__in {
+		0%, 100% {
+			transform: translateY(0);
+		}
+		30% {
+			transform: translateY(-50%);
+		}
+	}
+	.klokan {
+		font-size: 2em;
+		animation: klokan 4s infinite;
+	}
+	.klokan__in {
+		animation: klokan__in 1s infinite;
+	}
+	@media (prefers-reduced-motion) {
+		.klokan,
+		.klokan__in {
+			animation: none;
+		}
+	}
+</style>
+<div class="klokan">
+	<div class="klokan__in">🦘</div>
+</div>
+<h2>Tmavé téma</h2>
+<p>Tmavé téma je oblíbené mezi uživateli, kteří tráví hodně času u počítače. Tmavé téma šetří oči a u některých typů displaye i baterku. Tmavé téma je také vhodné pro některé uživatele se zrakovým postižením.</p>
+<p>Prohlížeče předpokládají, že weby píšeme ve světlém stylu. Proto nejdříve v HTML hlavičce řekneme, že náš web podporuje téma světlé i tmavé.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>color-scheme<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>light dark<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>	<span class="token comment">&lt;!-- … --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></code></pre>
+<p>V CSS pak, pokud chceme třeba pro tmavé téma použít jiné barvy, můžeme použít media query.</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-color-scheme</span><span class="token punctuation">:</span> dark<span class="token punctuation">)</span></span> <span class="token punctuation">{</span><br>	<span class="token selector">body</span> <span class="token punctuation">{</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<h2>Cvičení</h2>
+<p>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-media-preference">github.com/…/cviceni-media-preference</a>.</p>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>

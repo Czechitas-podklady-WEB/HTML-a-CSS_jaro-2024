@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Animace | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Animace</h1>
+				
+				<p>CSS animace umožňují prvkům měnit své vlastnosti v čase pomocí vlastnosti <code>animation</code> a definici klíčových snímků přes <code>@keyframes</code>.</p>
+<h2>Základní animace</h2>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@keyframes</span> posun-doprava</span> <span class="token punctuation">{</span><br>	<span class="token selector">0%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>0<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">100%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span><br><br><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">animation</span><span class="token punctuation">:</span> posun-doprava 2s infinite<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<style>
+@keyframes posun-doprava {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(2em);
+	}
+}
+</style>
+<div style="font-size: 2em; animation: posun-doprava 2s infinite;">➡️</div>
+<p>Kódem výše jsme zadefinovali animaci <code>posun-doprava</code>, která prvek posune o 100 pixelů doprava za 2 sekundy a bude se opakovat donekonečna.</p>
+<p>Vlastnost <code>animation</code> je sdružená vlastnost. Dá se rozepsat na následující:</p>
+<ul>
+<li><code>animation-name</code> určuje jméno, které jsme si zadefinovali v klíčových snímcích.</li>
+<li><code>animation-duration</code> nastavuje délku animace (hodnoty např. <code>0s</code>, <code>0.3s</code>, <code>750ms</code>).</li>
+<li><code>animation-delay</code> opozdí spuštění animace (hodnoty např. <code>0s</code>, <code>1s</code>, <code>500ms</code>).</li>
+<li><code>animation-timing-function</code> nastavuje průběžně měnící se rychlost (hodnoty např. <code>ease</code>, <code>linear</code>, <code>ease-in</code>, <code>cubic-bezier(0.1, 0.7, 1, 0.1)</code>).</li>
+<li><code>animation-iteration-count</code> říká, kolikrát se má animace opakovat (hodnoty např. <code>1</code>, <code>2</code>, <code>infinite</code>).</li>
+<li><code>animation-direction</code> rozhoduje o směru animace (hodnoty např. <code>normal</code>, <code>reverse</code>, <code>alternate</code>, <code>alternate-reverse</code>).</li>
+</ul>
+<p>Klíčové snímky definujeme pomocí klíčového slova <code>@keyframes</code>, za kterým následuje jméno animace. V bloku definujeme jednotlivé snímky pomocí procentuálního vyjádření času (<code>0%</code> pro začátek animace, <code>100%</code> pro konec). Snímků můžeme mí libovolné množství.</p>
+<h2>Více klíčových snímků</h2>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@keyframes</span> zmena-barvy</span> <span class="token punctuation">{</span><br>	<span class="token selector">0%</span> <span class="token punctuation">{</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">20%</span> <span class="token punctuation">{</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">50%</span> <span class="token punctuation">{</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">75%</span> <span class="token punctuation">{</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">100%</span> <span class="token punctuation">{</span><br>		<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span><br>		<span class="token property">background-color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span><br><br><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">animation-name</span><span class="token punctuation">:</span> zmena-barvy<span class="token punctuation">;</span><br>	<span class="token property">animation-duration</span><span class="token punctuation">:</span> 5s<span class="token punctuation">;</span><br>	<span class="token property">animation-iteration-count</span><span class="token punctuation">:</span> infinite<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<style>
+@keyframes zmena-barvy {
+	0% {
+		color: black;
+		background-color: red;
+	}
+	20% {
+		color: white;
+		background-color: black;
+	}
+	50% {
+		color: white;
+		background-color: blue;
+	}
+	75% {
+		color: black;
+		background-color: white;
+	}
+	100% {
+		color: white;
+		background-color: green;
+	}
+}
+</style>
+<div style="font-size: 1.5em; animation: zmena-barvy 5s infinite; display: inline-block; padding: 0.5em; font-weight: bold;">Text</div>
+<h2>Plynulé přeskočení na první snímek</h2>
+<p>Pokud se snažíme docílit nekonečné animace pomocí <code>animation-iteration-count: infinite</code>, hodí se, aby byl první snímek stejný jako poslední. Jinak je přeskočení z posledního snímku zpět na první vidět.</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@keyframes</span> toc-dokola</span> <span class="token punctuation">{</span><br>	<span class="token selector">0%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>0deg<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">100%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span><br><br><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">animation</span><span class="token punctuation">:</span> toc-dokola 2s infinite<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<style>
+@keyframes toc-dokola {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+</style>
+<div style="font-size: 2em; animation: toc-dokola 2s infinite; display: inline-block;">😀</div>
+<p>Alternativně můžeme použít <code>animation-direction: alternate</code>, který bude animaci opakovat v opačném směru. Tam a zpátky.</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@keyframes</span> ping-pong</span> <span class="token punctuation">{</span><br>	<span class="token selector">0%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>0<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br>	<span class="token selector">100%</span> <span class="token punctuation">{</span><br>		<span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>100px<span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br><span class="token punctuation">}</span><br><br><span class="token selector">.prvek</span> <span class="token punctuation">{</span><br>	<span class="token property">animation</span><span class="token punctuation">:</span> ping-pong 2s infinite<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<style>
+@keyframes ping-pong {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(2em);
+	}
+}
+</style>
+<div style="font-size: 2em; animation: ping-pong 2s infinite alternate; display: inline-block;">🍄</div>
+<h3>Příklady užití animací</h3>
+<ul>
+<li>Znázornění načítání. <a href="https://css-loaders.com/">css-loaders.com</a></li>
+</ul>
+<h2>Pro pokročilé</h2>
+<ul>
+<li>Vlastnost <code>animation-fill-mode</code> určuje, jak se má prvek chovat mimo dobu animace (hodnoty např. <code>none</code>, <code>forwards</code>, <code>backwards</code>, <code>both</code>). <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode">MDN animation fill mode</a></li>
+<li>V blízké době se můžeme těšit na animace řízené scrollováním místo času. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline">MDN scroll-timeline</a></li>
+<li><code>0%</code> a <code>100%</code> můžeme nahradit klíčovými slovy <code>from</code> a <code>to</code>.</li>
+</ul>
+<h2>Cvičení</h2>
+<ul>
+<li>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-hodiny-css">github.com/…/cviceni-hodiny-css</a>.</li>
+</ul>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>
