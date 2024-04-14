@@ -166,6 +166,10 @@ Alternativně můžeme použít `animation-direction: alternate`, který bude an
 </style>
 <div style="font-size: 2em; animation: ping-pong 2s infinite alternate; display: inline-block;">🍄</div>
 
+### Příklady užití animací
+
+- Znázornění načítání. [css-loaders.com](https://css-loaders.com/)
+
 ## Pro pokročilé
 
 - Vlastnost `animation-fill-mode` určuje, jak se má prvek chovat mimo dobu animace (hodnoty např. `none`, `forwards`, `backwards`, `both`). [MDN animation fill mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
