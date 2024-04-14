@@ -20,10 +20,10 @@ CSS přechody umožňují plynulé změny vlastností prvku, například barvy, 
 
 Vlastnost `transition` sdružuje několik podvlastností podobně jako třeba vlastnost `border` nebo `padding`.
 
-- `transition-property` určuje, které vlastnosti se mají přechodně měnit (hodnoty např. `color`, `transform`, `opacity`)
-- `transition-duration` délka trvání přechodu (hodnoty např. `0s`, `0.3s`, `750ms`)
-- `transition-delay` opozdí spuštění přechodu (hodnoty např. `0s`, `1s`, `500ms`)
-- `transition-timing-function` nastavuje průběžně měnící se rychlost (hodnoty např. `ease`, `linear`, `ease-in`, `cubic-bezier(0.1, 0.7, 1, 0.1)`, `steps(4, jump-start)`)
+- `transition-property` určuje, které vlastnosti se mají přechodně měnit (hodnoty např. `color`, `transform`, `opacity`).
+- `transition-duration` délka trvání přechodu (hodnoty např. `0s`, `0.3s`, `750ms`).
+- `transition-delay` opozdí spuštění přechodu (hodnoty např. `0s`, `1s`, `500ms`).
+- `transition-timing-function` nastavuje průběžně měnící se rychlost (hodnoty např. `ease`, `linear`, `ease-in`, `cubic-bezier(0.1, 0.7, 1, 0.1)`, `steps(4, jump-start)`).
 
 ## Pro pokročilé
 

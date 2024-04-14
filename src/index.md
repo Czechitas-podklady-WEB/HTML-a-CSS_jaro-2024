@@ -30,7 +30,7 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 
 ### 9. lekce: 15. dubna 2024 <small>(Filip)</small>
 
-- CSS animace
+- [Animace](animace)
 - [Domácí úkol: Island](domaci-ukol-island)
 
 ### 10. lekce: 22. dubna 2024 <small>(Filip)</small>
