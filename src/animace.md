@@ -170,6 +170,7 @@ Alternativně můžeme použít `animation-direction: alternate`, který bude an
 
 - Vlastnost `animation-fill-mode` určuje, jak se má prvek chovat mimo dobu animace (hodnoty např. `none`, `forwards`, `backwards`, `both`). [MDN animation fill mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 - V blízké době se můžeme těšit na animace řízené scrollováním místo času. [MDN scroll-timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline)
+- `0%` a `100%` můžeme nahradit klíčovými slovy `from` a `to`.
 
 ## Cvičení
 
