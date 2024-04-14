@@ -172,6 +172,4 @@ Alternativně můžeme použít `animation-direction: alternate`, který bude an
 
 ## Cvičení
 
-@TODO
-
-rozhoupat houpačku
+- Postupuj podle zadání na [github.com/…/cviceni-hodiny-css](https://github.com/Czechitas-podklady-WEB/cviceni-hodiny-css).
