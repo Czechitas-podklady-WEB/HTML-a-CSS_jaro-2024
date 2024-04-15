@@ -3,7 +3,7 @@ layout: base
 title: Animace
 ---
 
-CSS animace umožňují prvkům měnit své vlastnosti v čase pomocí vlastnosti `animation` a definici klíčových snímků přes `@keyframes`.
+CSS animace umožňují prvkům měnit své vlastnosti v čase pomocí vlastnosti `animation` a definice klíčových snímků přes `@keyframes`.
 
 ## Základní animace
 
