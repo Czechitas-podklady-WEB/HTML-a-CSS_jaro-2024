@@ -79,7 +79,7 @@ Prohlížeče předpokládají, že weby píšeme ve světlém stylu. Proto nejd
 </head>
 ```
 
-V CSS pak, pokud chceme třeba pro tmavé téma použít jiné barvy, můžeme použít media query.
+V CSS pak, pokud chceme třeba pro tmavé téma použít jiné barvy, můžeme zapsat následující media query.
 
 ```css
 @media (prefers-color-scheme: dark) {

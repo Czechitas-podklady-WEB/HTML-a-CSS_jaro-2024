@@ -34,7 +34,7 @@ CSS animace umožňují prvkům měnit své vlastnosti v čase pomocí vlastnost
 </style>
 <div style="font-size: 2em; animation: posun-doprava 2s infinite;">➡️</div>
 
-Kódem výše jsme zadefinovali animaci `posun-doprava`, která prvek posune o 100 pixelů doprava za 2 sekundy a bude se opakovat donekonečna.
+Kódem výše jsme zadefinovali animaci `posun-doprava`, která prvek postupně posune o 100 pixelů doprava během dvou sekund a bude se opakovat donekonečna.
 
 Vlastnost `animation` je sdružená vlastnost. Dá se rozepsat na následující:
 
@@ -45,7 +45,7 @@ Vlastnost `animation` je sdružená vlastnost. Dá se rozepsat na následující
 - `animation-iteration-count` říká, kolikrát se má animace opakovat (hodnoty např. `1`, `2`, `infinite`).
 - `animation-direction` rozhoduje o směru animace (hodnoty např. `normal`, `reverse`, `alternate`, `alternate-reverse`).
 
-Klíčové snímky definujeme pomocí klíčového slova `@keyframes`, za kterým následuje jméno animace. V bloku definujeme jednotlivé snímky pomocí procentuálního vyjádření času (`0%` pro začátek animace, `100%` pro konec). Snímků můžeme mí libovolné množství.
+Klíčové snímky definujeme pomocí klíčového slova `@keyframes`, za kterým následuje jméno animace. V bloku definujeme jednotlivé snímky pomocí procentuálního vyjádření času (`0%` pro začátek animace, `100%` pro konec). Snímků můžeme mít libovolné množství.
 
 ## Více klíčových snímků
 
@@ -108,7 +108,7 @@ Klíčové snímky definujeme pomocí klíčového slova `@keyframes`, za který
 
 ## Plynulé přeskočení na první snímek
 
-Pokud se snažíme docílit nekonečné animace pomocí `animation-iteration-count: infinite`, hodí se, aby byl první snímek stejný jako poslední. Jinak je přeskočení z posledního snímku zpět na první vidět.
+Pokud se snažíme docílit nekonečné animace pomocí `animation-iteration-count: infinite`, hodí se, aby byl první snímek stejný jako poslední. Jinak by přeskočení z posledního snímku zpět na první bylo vidět.
 
 ```css
 @keyframes toc-dokola {
