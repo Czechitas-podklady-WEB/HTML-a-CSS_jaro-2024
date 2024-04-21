@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Formuláře | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Formuláře</h1>
+				
+				<h2>Prvek <code>&lt;input&gt;</code></h2>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token punctuation">/></span></span></code></pre>
+<input style="font-size: 1.5em;" />
+<ul>
+<li>Atribut <code>type</code> specifikuje, jaký typ dat se má uživatel vyplnit. Například <code>text</code>, <code>email</code>, <code>password</code>, <code>number</code>, <code>date</code>, <code>color</code>, <code>range</code>, <code>file</code>, <code>checkbox</code>, <code>radio</code>, <code>hidden</code>, <code>search</code>, <code>tel</code>, <code>url</code>, <code>time</code>, <code>month</code>, <code>week</code>. Výchozí je <code>text</code>.</li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>number<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>date<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code></pre>
+<p><input style="font-size: 1.5em;" type="number" /><br />
+<input style="font-size: 1.5em;" type="date" /><br />
+<input style="font-size: 1.5em;" type="checkbox" /></p>
+<h2>Prvek <code>&lt;label&gt;</code></h2>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Zadejte váš e-mail: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span></code></pre>
+<p><label style="font-size: 1.5em;">Zadejte váš e-mail: <input type="email" style="font-size: inherit;" /></label></p>
+<h2>Prvek <code>&lt;button&gt;</code></h2>
+<p>Tlačítko pro odeslání/uložení vyplněných dat.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Odeslat<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
+<p><button style="font-size: 1.5em;">Odeslat</button></p>
+<h2>Prvek <code>&lt;form&gt;</code></h2>
+<p>Obalující prvek pro všechny prvky formuláře, aby bylo jasné, které prvky patří dohromady, když je na stránce třeba formulářů více. Atribut <code>name</code> na prvku <code>&lt;input&gt;</code> pak říká, pod jakým názvem se data vyplněná uživatelem objeví po odeslání v adresním řádku.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>E-mail: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Heslo: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>heslo<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Přihlásit se<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<form style="font-size: 1.5em;">
+	<label style="display: block;">E-mail: <input type="email" name="email" style="font-size: inherit;" /></label>
+	<label style="display: block;">Heslo: <input type="password" name="heslo" style="font-size: inherit;" /></label>
+	<button style="font-size: inherit;">Přihlásit se</button>
+</form>
+<h3>Atribut <code>action</code></h3>
+<p>Adresa, kam se odesílají data. Například <a href="https://just-countdown.eu/run?seconds=300">https://just-countdown.eu/run</a> + <code>?seconds=300</code> nebo <a href="https://intro.czechitas-podklady.cz/slide.html?title=HTML+a+CSS&amp;meta1=Lekce+10&amp;meta2=&amp;meta3=&amp;icon=">https://intro.czechitas-podklady.cz/slide.html</a> + <code>?title=HTML+a+CSS&amp;meta1=Lekce+10</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://just-countdown.eu/run<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Počet sekund: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>number<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>seconds<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Spustit odpočet<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<form style="font-size: 1.5em;" action="https://just-countdown.eu/run">
+	<label style="display: block;">Počet sekund: <input type="number" name="seconds" style="font-size: inherit;" /></label>
+	<button style="font-size: inherit;">Spustit odpočet</button>
+</form>
+<h2>Pro pokročilé</h2>
+<ul>
+<li>Ve výchozím chování se data vyplněná uživatelem po odeslání propisují do adresního řádku. To nemusí být vždy žádoucí a nestačí na všechno. Některé backendy vyžadují odesílání pomocí <code>method=&quot;POST&quot;</code>. Více na <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#method">MDN</a>.</li>
+</ul>
+<h2>Cvičení</h2>
+<p>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-vyhledavac">github.com/…/cviceni-vyhledavac</a>.</p>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>

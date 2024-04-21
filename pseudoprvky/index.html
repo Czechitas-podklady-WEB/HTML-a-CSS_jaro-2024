@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Pseudoprvky | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS 2 od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS-2/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Pseudoprvky</h1>
+				
+				<h2>Before a after</h2>
+<p>Pomocí CSS lze téměř na každém prvku vytvořit potomky <code>before</code> a <code>after</code>, které se chovají jako prvky HTML, aniž bychom je do HTML psali. Tyto pseudoprvky se často používají pro ozdobné prvky, ikony, šipky, …</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>prvek<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Ahoj<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">.prvek::before</span> <span class="token punctuation">{</span><br>	<span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">'🌍'</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><span class="token selector">.ukazkovy-prvek::after</span> <span class="token punctuation">{</span><br>	<span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">' světe!'</span><span class="token punctuation">;</span><br>	<span class="token property">font-weight</span><span class="token punctuation">:</span> bold<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<style>
+	.ukazkovy-prvek {
+		font-size: 2em;
+	}
+	.ukazkovy-prvek::before {
+		content: "🌍";
+	}
+	.ukazkovy-prvek::after {
+		content: " světe!";
+		font-weight: bold;
+	}
+</style>
+<div class="ukazkovy-prvek">Ahoj</div>
+<p>Klíčová je vlastnost <code>content</code>. Bez té pseudoprvek nemůže existovat. Může být ale klidně i prázdná.</p>
+<h3>Příklad užití</h3>
+<ul>
+<li>Různé tvary bez nutnosti použití obrázku. <a href="https://css-tricks.com/the-shapes-of-css/">The Shapes of CSS na css-tricks.com</a></li>
+</ul>
+<h2>Pro pokročilé</h2>
+<ul>
+<li>Další pseudoprvky: <code>::first-line</code>, <code>::first-letter</code>, <code>::marker</code>, … Více na <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">MDN</a>.</li>
+<li>Text v pseudoprvku nemůže uživatel snadno kopírovat. Kvůli přístupnosti webu není dobré vlastností <code>content</code> nastavovat důležitý obsah.</li>
+</ul>
+<h2>Cvičení</h2>
+<p>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-before-after">github.com/…/cviceni-before-after</a>.</p>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>
