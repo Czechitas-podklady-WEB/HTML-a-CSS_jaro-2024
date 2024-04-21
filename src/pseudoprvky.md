@@ -46,3 +46,7 @@ Klíčová je vlastnost `content`. Bez té pseudoprvek nemůže existovat. Můž
 
 - Další pseudoprvky: `::first-line`, `::first-letter`, `::marker`, … Více na [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
 - Text v pseudoprvku nemůže uživatel snadno kopírovat. Kvůli přístupnosti webu není dobré vlastností `content` nastavovat důležitý obsah.
+
+## Cvičení
+
+Postupuj podle zadání na [github.com/…/cviceni-before-after](https://github.com/Czechitas-podklady-WEB/cviceni-before-after).
