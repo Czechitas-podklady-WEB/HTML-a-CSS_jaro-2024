@@ -81,4 +81,4 @@ Adresa, kam se odesílají data. Například [https://just-countdown.eu/run](htt
 
 ## Cvičení
 
-Postupuj podle zadání na [github.com/…/Cviceni-Vyhledavac](https://github.com/Czechitas-podklady-WEB/Cviceni-Vyhledavac).
+Postupuj podle zadání na [github.com/…/cviceni-vyhledavac](https://github.com/Czechitas-podklady-WEB/cviceni-vyhledavac).
