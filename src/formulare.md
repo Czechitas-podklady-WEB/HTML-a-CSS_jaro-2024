@@ -11,7 +11,7 @@ title: Formuláře
 
 <input style="font-size: 1.5em;" />
 
-- Atribut `type` specifikuje, jaký typ dat se má uživatel vyplnit. Například `text`, `email`, `password`, `number`, `date`, `color`, `range`, `file`, `checkbox`, `radio`, `hidden`, `search`, `tel`, `url`, `time`, `month`, `week`. Výchozí je `text`.
+### Atribut `type` specifikuje, jaký typ dat se má uživatel vyplnit. Například `text`, `email`, `password`, `number`, `date`, `color`, `range`, `file`, `checkbox`, `radio`, `hidden`, `search`, `tel`, `url`, `time`, `month`, `week`. Výchozí je `text`.
 
 ```html
 <input type="number" />
