@@ -43,7 +43,8 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 
 ### 11. lekce: 29. dubna 2024 <small>(Filip)</small>
 
-- Bootstrap - CSS framework
+- [Bootstrap](bootstrap-css)
+- [Bootstrap a JavaScript](bootstrap-javascript)
 - [Domácí úkol: Kadeřnictví](domaci-ukol-kadernictvi)
 
 ### 12. lekce: 6. května 2024 <small>(Filip)</small>
