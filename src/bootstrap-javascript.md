@@ -3,7 +3,7 @@ layout: base
 title: Bootstrap a JavaScript
 ---
 
-Volitelnou součástí Bootstrapu je i JavaScriptová nadstavba, která přidává do frameworku další funkce. Tyto funkce se většinou týkají interakce s uživatelem, například přepínací galerie, rozbalovací menu, nápovědy po najetí myši, modální okna.
+Volitelnou součástí Bootstrapu je i JavaScriptová nadstavba, která přidává do frameworku další funkce. Tyto funkce se většinou týkají interakce s uživatelem, například přepínací [galerie](https://getbootstrap.com/docs/5.3/components/carousel/), [rozbalovací menu](https://getbootstrap.com/docs/5.3/components/navbar/) na užších obrazovkách, [modální okna](https://getbootstrap.com/docs/5.3/components/modal/).
 
 ## Napojení
 
