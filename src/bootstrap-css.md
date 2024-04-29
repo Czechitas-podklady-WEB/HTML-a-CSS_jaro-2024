@@ -22,3 +22,7 @@ Nejjednodušší způsob, jak začít používat Bootstrap, je přidat odkaz na 
 	<!-- … -->
 </html>
 ```
+
+## Cvičení
+
+- Postupuj podle zadání na [github.com/…/cviceni-bootstrap-css](https://github.com/Czechitas-podklady-WEB/cviceni-bootstrap-css).
