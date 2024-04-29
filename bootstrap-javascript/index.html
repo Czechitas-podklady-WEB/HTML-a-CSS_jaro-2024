@@ -30,10 +30,11 @@
 				
 					<h1>Bootstrap a JavaScript</h1>
 				
-				<p>Volitelnou součástí Bootstrapu je i JavaScriptová nadstavba, která přidává do frameworku další funkce. Tyto funkce se většinou týkají interakce s uživatelem, například přepínací galerie, rozbalovací menu, nápovědy po najetí myši, modální okna.</p>
+				<p>Volitelnou součástí Bootstrapu je i JavaScriptová nadstavba, která přidává do frameworku další funkce. Tyto funkce se většinou týkají interakce s uživatelem, například přepínací <a href="https://getbootstrap.com/docs/5.3/components/carousel/">galerie</a>, <a href="https://getbootstrap.com/docs/5.3/components/navbar/">rozbalovací menu</a> na užších obrazovkách, <a href="https://getbootstrap.com/docs/5.3/components/modal/">modální okna</a>.</p>
 <h2>Napojení</h2>
 <p>Kromě CSS souboru Bootstrapu z předchozí kapitoly je třeba přidat i JavaScriptový soubor. Nejjednodušší způsob, jak to udělat, je přidat odkaz na něj na konec těla HTML dokumentu. To uděláte takto:</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>	<span class="token comment">&lt;!-- … --></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></code></pre>
+<p>U některých komponent je potřeba správně nastavit atributy začínající na <code>data-bs-*</code>. Například u tlačítka pro otevření modalu je nutné dodat, který modal se má otevřít, aby prohlížeč věděl, i když jich je na stránce více.</p>
 <h2>Cvičení</h2>
 <ul>
 <li>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-bootstrap-javascript">github.com/…/cviceni-bootstrap-javascript</a>.</li>
