@@ -16,6 +16,8 @@ Kromě CSS souboru Bootstrapu z předchozí kapitoly je třeba přidat i JavaScr
 </body>
 ```
 
+U některých komponent je potřeba správně nastavit atributy začínající na `data-bs-*`. Například u tlačítka pro otevření modalu je nutné dodat, který modal se má otevřít, aby prohlížeč věděl, i když jich je na stránce více.
+
 ## Cvičení
 
 - Postupuj podle zadání na [github.com/…/cviceni-bootstrap-javascript](https://github.com/Czechitas-podklady-WEB/cviceni-bootstrap-javascript).
