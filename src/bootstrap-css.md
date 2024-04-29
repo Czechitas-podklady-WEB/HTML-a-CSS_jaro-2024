@@ -25,7 +25,7 @@ Nejjednodušší způsob, jak začít používat Bootstrap, je přidat odkaz na 
 
 ## Rozložení stránky
 
-Bootstrap vám nabízí mnoho prvků. Kombinací `.container`, `.row` a `.col` můžete vytvořit responzivní rozložení stránky. Více o [grid systému v dokumentaci](https://getbootstrap.com/docs/5.3/layout/grid/). Pro nastavení mezer mezi sloupci a řádky slouží [gutters](https://getbootstrap.com/docs/5.3/layout/gutters/).
+Bootstrap vám nabízí mnoho prvků. Kombinací `.container`, `.row` a `.col` můžete vytvořit responzivní rozložení stránky. Více o [grid systému v dokumentaci](https://getbootstrap.com/docs/5.3/layout/grid/). Pro nastavení mezer mezi sloupci a řádky slouží [gutters](https://getbootstrap.com/docs/5.3/layout/gutters/). Pro obecnější nastavení mezer slouží [Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/).
 
 ## Responzivní obrázky
 
