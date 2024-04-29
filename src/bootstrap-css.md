@@ -33,6 +33,10 @@ Bootstrap vám nabízí mnoho prvků. Kombinací `.container`, `.row` a `.col` m
 - [Karta](https://getbootstrap.com/docs/5.3/components/card/)
 - a další…
 
+## Pro pokročilé
+
+- Vlastní barevné schéma: [CSS variables](https://getbootstrap.com/docs/5.3/customize/css-variables/)
+
 ## Cvičení
 
 - Postupuj podle zadání na [github.com/…/cviceni-bootstrap-css](https://github.com/Czechitas-podklady-WEB/cviceni-bootstrap-css).
