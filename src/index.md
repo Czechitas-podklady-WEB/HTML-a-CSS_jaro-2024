@@ -49,8 +49,12 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 
 ### 12. lekce: 6. května 2024 <small>(Filip)</small>
 
-- Pokročilejší formuláře
-- Pokročilejší CSS selektory
-- Hosting
-- JavaScript knihovny
+- [Grafika](grafika)
+- [Pokročilejší Git](pokrocilejsi-git)
+- [SEO](seo)
+- [Hosting](hosting)
+- [Vícestránkový web](vicestrankovy-web)
+- [JavaScript](javascript)
+- [Pokročilejší formuláře](pokrocilejsi-formulare)
+- [Pokročilejší CSS selektory](pokrocilejsi-css-selektory)
 - [Kam dál](kam-dal)
