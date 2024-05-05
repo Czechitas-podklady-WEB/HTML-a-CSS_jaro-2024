@@ -42,3 +42,7 @@ Předstylované jednoduché i interaktivní prky.
 ### [Lightbox](https://lokeshdhakar.com/projects/lightbox2/)
 
 Ideální pro galerie. Zvětšuje obrázky na celou obrazovku po kliknutí.
+
+## Cvičení
+
+- Postupuj podle zadání na [github.com/…/cviceni-lightbox](https://github.com/Czechitas-podklady-WEB/cviceni-lightbox).
