@@ -53,3 +53,4 @@ Podklady pro online kurz [HTML a CSS](https://www.czechitas.cz/kurzy/html-a-css)
 - Pokročilejší CSS selektory
 - Hosting
 - JavaScript knihovny
+- [Kam dál](kam-dal)
