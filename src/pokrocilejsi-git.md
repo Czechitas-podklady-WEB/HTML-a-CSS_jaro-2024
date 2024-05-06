@@ -48,3 +48,7 @@ Vytvoří nový commit, který zruší změny z vybraného commitu. Tím se zach
 ### Ruční překopírování
 
 Když je nejhůře, můžete si ručně překopírovat soubory z minulé verze třeba z GitHubu. Tento postup je sice pracný, ale kolikrát nejjistější.
+
+### Graf historie commitů
+
+[Rozšíření Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)

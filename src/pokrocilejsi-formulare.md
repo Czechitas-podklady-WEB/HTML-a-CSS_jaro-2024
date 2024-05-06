@@ -6,17 +6,17 @@ title: Pokročilejší formuláře
 ## `<select>`
 
 ```html
-<select>
-	<option value="1">Položka 1</option>
-	<option value="2">Položka 2</option>
-	<option value="3">Položka 3</option>
+<select name="prichut">
+	<option>Vanilková</option>
+	<option>Čokoládová</option>
+	<option>Pistáciová</option>
 </select>
 ```
 
 <select style="font-size: 1.5em;">
-	<option value="1">Položka 1</option>
-	<option value="2">Položka 2</option>
-	<option value="3">Položka 3</option>
+	<option>Vanilková</option>
+	<option>Čokoládová</option>
+	<option>Pistáciová</option>
 </select>
 
 ## Atribut `autocomplete`

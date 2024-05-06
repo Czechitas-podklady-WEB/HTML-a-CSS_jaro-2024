@@ -26,5 +26,3 @@ Jeden večer o tom, co jsou digitální akademie.
 Velmi intenzivní semestrální kurz zahrnující HTML, CSS, JavaScript, React, Git, práci v týmu a další.
 
 [czechitas.cz/kurzy/digitalni-akademie-web](https://www.czechitas.cz/kurzy/digitalni-akademie-web)
-
-## Jak začít s prací

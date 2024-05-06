@@ -3,7 +3,7 @@ layout: base
 title: Vícestránkový web
 ---
 
-Kromě souboru `index.html`, který je vstupním bodem webu, můžeme mít vedle něj libovolné množství dalších HTML souborů. Aby se mezi nimi mohl uživatel pohybovat, musíme je nějak propojit. Nejčastěji se to děje pomocí odkazů, které se píší do značky `<a>`.
+Kromě souboru `index.html`, který je vstupním bodem webu, můžeme mít vedle něj libovolné množství dalších HTML souborů. Aby se mezi nimi mohl uživatel pohybovat, musíme je nějak propojit. Nejčastěji se tak dělá pomocí odkazů, které se píší do značky `<a>`.
 
 ```html
 <a href="index.html">Domů</a>
