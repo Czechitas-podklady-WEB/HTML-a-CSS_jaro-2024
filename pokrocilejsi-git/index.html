@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Pokročilejší Git | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS_jaro-2024/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Pokročilejší Git</h1>
+				
+				<h2>Dva počítače</h2>
+<p>Pokud jste v gitu přihlášeni na více zařízeních, můžou se vám hodit následující příkazy pro stahování a nahrávání změn. Zejména užitečný bude <code>git pull</code>.</p>
+<h3>Z počítače na server</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> push</code></pre>
+<h3>Ze serveru na počítač</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone …</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> pull</code></pre>
+<h2>Dva kodéři</h2>
+<p>Funguje velmi podobně jako v případě dvou počítačů. Jen je potřeba na GitHubu udělit v nastavení repozitáře, v záložce Collaborators and teams oprávnění druhému člověku, aby mohl také přispívat/pushovat. Repozitář s kódem však vlastní jen první autor.</p>
+<h2>Návrat ke starší verzi</h2>
+<h3>Reset</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> reset --hard 7240e13ebddfb57aaceaab4a1a5043a0e3303177</code></pre>
+<p>Kód výše je velmi nebezpečný a může vás připravit i o změny, které chcete zachovat. Posledním parametrem je identifikátor commitu, ke kterému se chcete vrátit. Často se kombinuje s příkazem <code>git push --force</code>, pokud chcete změny smazat i na serveru, GitHubu.</p>
+<h3>Revert</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> revert 7240e13ebddfb57aaceaab4a1a5043a0e3303177</code></pre>
+<p>Vytvoří nový commit, který zruší změny z vybraného commitu. Tím se zachová historie změn a můžete se k nim kdykoliv vrátit.</p>
+<h3>Ruční překopírování</h3>
+<p>Když je nejhůře, můžete si ručně překopírovat soubory z minulé verze třeba z GitHubu. Tento postup je sice pracný, ale kolikrát nejjistější.</p>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>

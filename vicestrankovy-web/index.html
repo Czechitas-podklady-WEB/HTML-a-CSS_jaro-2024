@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/HTML-a-CSS_jaro-2024/">
+		<title>
+			Vícestránkový web | HTML a CSS
+		</title>
+		<meta name="description" content="Podklady pro online kurz HTML a CSS od Czechitas.">
+		<link rel="stylesheet" href="static/main.css">
+		<link rel="icon" type="image/png" href="static/favicon.png" sizes="64x64">
+		<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+		<meta property="og:image" content="https://czechitas-podklady-web.github.io/HTML-a-CSS_jaro-2024/static/og-image.jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="630"/>
+		<meta name="color-scheme" content="light dark" />
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>
+					<a href="" class="header__link">
+						<img src="static/logo.png" width="206" height="60" alt="logo Czechitas">
+						<span>HTML a CSS</span>
+					</a>
+				</h1>
+			</header>
+			<main>
+				
+					<h1>Vícestránkový web</h1>
+				
+				<p>Kromě souboru <code>index.html</code>, který je vstupním bodem webu, můžeme mít vedle něj libovolné množství dalších HTML souborů. Aby se mezi nimi mohl uživatel pohybovat, musíme je nějak propojit. Nejčastěji se to děje pomocí odkazů, které se píší do značky <code>&lt;a&gt;</code>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Domů<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kontakt.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Kontakt<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>o-nas.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>O nás<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<p>Všechny HTML soubory potřebují svou <code>&lt;html&gt;</code> značku, <code>&lt;head&gt;</code> i <code>&lt;body&gt;</code>. CSS soubor ale mohou sdílet klidně jeden společný. Stačí ho načíst v hlavičce každého souboru.</p>
+<h2>Pro pokročilé</h2>
+<h3>Šablonovací systémy</h3>
+<p>I na jedné stránce se dost často opakují větší stejné nebo podobné kusy HTML. U vícestránkových webů se pak většinou na každé stránce opakuje například hlavička a patička. Když se něco změní, musí se změnit na všech stránkách. Šablony jsou způsob, jak toto opakování zjednodušit. Pomocí šablonovacího systému se například hlavička napíše jen jednou a systém ji automaticky nakopíruje do všech stránek.</p>
+<h2>Cvičení</h2>
+<ul>
+<li>Postupuj podle zadání na <a href="https://github.com/Czechitas-podklady-WEB/cviceni-vicestrankovy-web">github.com/…/cviceni-vicestrankovy-web</a>.</li>
+</ul>
+
+			</main>
+			<footer class="layout__footer">
+				© 2024 <a href="https://www.czechitas.cz/">Czechitas z.ú.</a>
+			</footer>
+		</div>
+	</body>
+</html>
