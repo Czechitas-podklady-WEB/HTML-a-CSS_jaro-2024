@@ -13,3 +13,7 @@ Stačí, aby na váš web existoval odkaz z nějakého jiného webu, který vyhl
 - Na LinkedInu.
 
 Pozor na neveřejné sociální sítě, jako je Facebook. Do těch roboti moc dobře nevidí, aby váš web zvládly objevit a zaindexovat.
+
+## Co když naopak web ve vyhledávačích nechceme
+
+Stačí přidat do hlavičky `<meta name="robots" content="noindex">` a roboti stránku vynechají. Může se hodit třeba u rozpracované stránky. Jen pak nezapomeňte tak odstranit, až bude stránka hotová.
